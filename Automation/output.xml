@@ -1,0 +1,3802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2 (Python 3.6.4 on win32)" generated="20200512 18:49:05.601" rpa="false">
+<suite id="s1" name="TestCases" source="C:\PycharmProjects\Automation\TestCases">
+<suite id="s1-s1" name="TC 001 Open Close Browser" source="C:\PycharmProjects\Automation\TestCases\TC_001_Open_Close_Browser.robot">
+<test id="s1-s1-t1" name="TC_001 Browser Open and Close">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:49:05.902" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20200512 18:49:05.902" endtime="20200512 18:49:13.524"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200512 18:49:13.525" endtime="20200512 18:49:13.653"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>coolrakesh_in</arg>
+</arguments>
+<msg timestamp="20200512 18:49:13.653" level="INFO">Typing text 'coolrakesh_in' into text field 'name:fld_username'.</msg>
+<msg timestamp="20200512 18:49:13.810" level="INFO">c:\python\python36\lib\site-packages\selenium\webdriver\remote\webdriver.py:560: UserWarning: find_elements_by_* commands are deprecated. Please use find_elements() instead
+  warnings.warn("find_elements_by_* commands are deprecated. Please use find_elements() instead")</msg>
+<status status="PASS" starttime="20200512 18:49:13.653" endtime="20200512 18:49:13.811"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://input[@name='fld_email']</arg>
+<arg>rakesh.ranjan@rediffmail.com</arg>
+</arguments>
+<msg timestamp="20200512 18:49:13.813" level="INFO">Typing text 'rakesh.ranjan@rediffmail.com' into text field 'xpath://input[@name='fld_email']'.</msg>
+<msg timestamp="20200512 18:49:13.983" level="INFO">c:\python\python36\lib\site-packages\selenium\webdriver\remote\webdriver.py:440: UserWarning: find_elements_by_* commands are deprecated. Please use find_elements() instead
+  warnings.warn("find_elements_by_* commands are deprecated. Please use find_elements() instead")</msg>
+<status status="PASS" starttime="20200512 18:49:13.813" endtime="20200512 18:49:13.984"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://input[@name='fld_email']</arg>
+<arg>bhaiji12@gmail.com</arg>
+</arguments>
+<msg timestamp="20200512 18:49:13.985" level="INFO">Typing text 'bhaiji12@gmail.com' into text field 'xpath://input[@name='fld_email']'.</msg>
+<status status="PASS" starttime="20200512 18:49:13.985" endtime="20200512 18:49:14.091"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:49:14.092" level="INFO">Typing text 'iBall@iBall' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20200512 18:49:14.092" endtime="20200512 18:49:14.191"></status>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<arguments>
+<arg>name:sex</arg>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200512 18:49:14.192" level="INFO">Selecting options from selection list 'name:sex' by index 2.</msg>
+<status status="PASS" starttime="20200512 18:49:14.192" endtime="20200512 18:49:14.295"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:49:14.296" endtime="20200512 18:49:16.519"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:49:05.899" endtime="20200512 18:49:16.520" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:49:05.637" endtime="20200512 18:49:16.522"></status>
+</suite>
+<suite id="s1-s2" name="TC 002 Use of CSS" source="C:\PycharmProjects\Automation\TestCases\TC_002_Use_of_CSS.robot">
+<test id="s1-s2-t1" name="TC_002 Using Various Tags and Attributes">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:49:16.535" level="INFO">Opening browser 'Chrome' to base url 'https://www.qtpselenium.com/'.</msg>
+<status status="PASS" starttime="20200512 18:49:16.535" endtime="20200512 18:49:21.831"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200512 18:49:21.832" endtime="20200512 18:49:21.951"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>css=.btn</arg>
+</arguments>
+<msg timestamp="20200512 18:49:21.952" level="INFO">Clicking link 'css=.btn'.</msg>
+<msg timestamp="20200512 18:49:22.185" level="INFO">c:\python\python36\lib\site-packages\selenium\webdriver\remote\webdriver.py:680: UserWarning: find_elements_by_* commands are deprecated. Please use find_elements() instead
+  warnings.warn("find_elements_by_* commands are deprecated. Please use find_elements() instead")</msg>
+<status status="PASS" starttime="20200512 18:49:21.952" endtime="20200512 18:49:22.185"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=username</arg>
+<arg>rakeshranjan12@gmail.com</arg>
+</arguments>
+<msg timestamp="20200512 18:49:22.191" level="INFO">Typing text 'rakeshranjan12@gmail.com' into text field 'name=username'.</msg>
+<status status="PASS" starttime="20200512 18:49:22.191" endtime="20200512 18:49:22.542"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>css=input[type='password']</arg>
+<arg>Apple121</arg>
+</arguments>
+<msg timestamp="20200512 18:49:22.544" level="INFO">Typing text 'Apple121' into text field 'css=input[type='password']'.</msg>
+<status status="PASS" starttime="20200512 18:49:22.543" endtime="20200512 18:49:22.642"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:49:22.642" endtime="20200512 18:49:24.902"></status>
+</kw>
+<doc>Simulate Click using css</doc>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:49:16.533" endtime="20200512 18:49:24.903" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:49:16.526" endtime="20200512 18:49:24.904"></status>
+</suite>
+<suite id="s1-s3" name="TC 003 Select Radio Button" source="C:\PycharmProjects\Automation\TestCases\TC_003_Select_Radio_Button.robot">
+<test id="s1-s3-t1" name="TC_003 Using Radio Button | Checkbox | LinkText">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:49:24.913" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20200512 18:49:24.912" endtime="20200512 18:49:31.080"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1024</arg>
+<arg>768</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:31.081" endtime="20200512 18:49:31.199"></status>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>0.5seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:31.200" endtime="20200512 18:49:31.200"></status>
+</kw>
+<kw name="Set Focus To Element" library="SeleniumLibrary">
+<doc>Sets the focus to the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="tab-content1"]/form/input[9]</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:31.201" endtime="20200512 18:49:32.230"></status>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<arguments>
+<arg>add_type</arg>
+<arg>office</arg>
+</arguments>
+<msg timestamp="20200512 18:49:32.231" level="INFO">Selecting 'office' from radio button 'add_type'.</msg>
+<status status="PASS" starttime="20200512 18:49:32.231" endtime="20200512 18:49:33.802"></status>
+</kw>
+<kw name="Checkbox Should Not Be Selected" library="SeleniumLibrary">
+<doc>Verifies checkbox ``locator`` is not selected/checked.</doc>
+<arguments>
+<arg>terms</arg>
+</arguments>
+<msg timestamp="20200512 18:49:33.805" level="INFO">Verifying checkbox 'terms' is not selected.</msg>
+<status status="PASS" starttime="20200512 18:49:33.804" endtime="20200512 18:49:35.338"></status>
+</kw>
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<arguments>
+<arg>terms</arg>
+</arguments>
+<msg timestamp="20200512 18:49:35.338" level="INFO">Selecting checkbox 'terms'.</msg>
+<status status="PASS" starttime="20200512 18:49:35.338" endtime="20200512 18:49:37.401"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://a[.='Read Detail']</arg>
+</arguments>
+<msg timestamp="20200512 18:49:37.402" level="INFO">Clicking link 'xpath://a[.='Read Detail']'.</msg>
+<status status="PASS" starttime="20200512 18:49:37.401" endtime="20200512 18:49:38.982"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:49:38.982" endtime="20200512 18:49:41.551"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:49:24.911" endtime="20200512 18:49:41.552" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:49:24.907" endtime="20200512 18:49:41.554"></status>
+</suite>
+<suite id="s1-s4" name="TC 004 Set Variable" source="C:\PycharmProjects\Automation\TestCases\TC_004_Set_Variable.robot">
+<test id="s1-s4-t1" name="TC_004-1 Setting Local Variable">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>Hello World</arg>
+</arguments>
+<assign>
+<var>${var1}</var>
+</assign>
+<msg timestamp="20200512 18:49:41.564" level="INFO">${var1} = Hello World</msg>
+<status status="PASS" starttime="20200512 18:49:41.564" endtime="20200512 18:49:41.564"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${var1}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.565" endtime="20200512 18:49:41.565"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:49:41.562" endtime="20200512 18:49:41.567" critical="yes"></status>
+</test>
+<test id="s1-s4-t2" name="TC_004-2 Use of RunKeyword with variable">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>NO</arg>
+</arguments>
+<assign>
+<var>${var_key}</var>
+</assign>
+<msg timestamp="20200512 18:49:41.570" level="INFO">${var_key} = NO</msg>
+<status status="PASS" starttime="20200512 18:49:41.569" endtime="20200512 18:49:41.570"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${var_key}'=='YES'</arg>
+<arg>Log To Console</arg>
+<arg>Value was found</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.571" endtime="20200512 18:49:41.571"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${var_key}'=='NO'</arg>
+<arg>Log To Console</arg>
+<arg>Value was not found</arg>
+</arguments>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Value was not found</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.571" endtime="20200512 18:49:41.572"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.571" endtime="20200512 18:49:41.572"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:49:41.568" endtime="20200512 18:49:41.573" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:49:41.558" endtime="20200512 18:49:41.575"></status>
+</suite>
+<suite id="s1-s5" name="TC 005 Set Variable List" source="C:\PycharmProjects\Automation\TestCases\TC_005_Set_Variable_List.robot">
+<test id="s1-s5-t1" name="TC_005 Setting Local Variable - List">
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>Hello</arg>
+<arg>22</arg>
+<arg>22.23</arg>
+<arg>World</arg>
+<arg>Abc123</arg>
+</arguments>
+<assign>
+<var>@{List1}</var>
+</assign>
+<msg timestamp="20200512 18:49:41.595" level="INFO">@{List1} = [ Hello | 22 | 22.23 | World | Abc123 ]</msg>
+<status status="PASS" starttime="20200512 18:49:41.594" endtime="20200512 18:49:41.595"></status>
+</kw>
+<kw name="Get Length" library="BuiltIn">
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<arguments>
+<arg>${List1}</arg>
+</arguments>
+<assign>
+<var>${list_length}</var>
+</assign>
+<msg timestamp="20200512 18:49:41.596" level="INFO">Length is 5</msg>
+<msg timestamp="20200512 18:49:41.596" level="INFO">${list_length} = 5</msg>
+<status status="PASS" starttime="20200512 18:49:41.596" endtime="20200512 18:49:41.596"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${list_length}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.596" endtime="20200512 18:49:41.598"></status>
+</kw>
+<kw name="Get From List" library="Collections">
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<arguments>
+<arg>${List1}</arg>
+<arg>4</arg>
+</arguments>
+<assign>
+<var>${list_data}</var>
+</assign>
+<msg timestamp="20200512 18:49:41.599" level="INFO">${list_data} = Abc123</msg>
+<status status="PASS" starttime="20200512 18:49:41.599" endtime="20200512 18:49:41.599"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${list_data}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.599" endtime="20200512 18:49:41.600"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:49:41.589" endtime="20200512 18:49:41.601" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:49:41.578" endtime="20200512 18:49:41.602"></status>
+</suite>
+<suite id="s1-s6" name="TC 006 For Loop" source="C:\PycharmProjects\Automation\TestCases\TC_006_For_Loop.robot">
+<test id="s1-s6-t1" name="TC_006-1 using for loop">
+<kw name="${i} IN RANGE [ 10 ]" type="for">
+<kw name="${i} = 0" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.611" endtime="20200512 18:49:41.612"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.611" endtime="20200512 18:49:41.612"></status>
+</kw>
+<kw name="${i} = 1" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.612" endtime="20200512 18:49:41.613"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.612" endtime="20200512 18:49:41.613"></status>
+</kw>
+<kw name="${i} = 2" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.613" endtime="20200512 18:49:41.613"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.613" endtime="20200512 18:49:41.613"></status>
+</kw>
+<kw name="${i} = 3" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.614" endtime="20200512 18:49:41.614"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.613" endtime="20200512 18:49:41.615"></status>
+</kw>
+<kw name="${i} = 4" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.615" endtime="20200512 18:49:41.615"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.615" endtime="20200512 18:49:41.615"></status>
+</kw>
+<kw name="${i} = 5" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.615" endtime="20200512 18:49:41.616"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.615" endtime="20200512 18:49:41.616"></status>
+</kw>
+<kw name="${i} = 6" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.616" endtime="20200512 18:49:41.617"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.616" endtime="20200512 18:49:41.617"></status>
+</kw>
+<kw name="${i} = 7" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.617" endtime="20200512 18:49:41.618"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.617" endtime="20200512 18:49:41.618"></status>
+</kw>
+<kw name="${i} = 8" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.618" endtime="20200512 18:49:41.619"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.618" endtime="20200512 18:49:41.620"></status>
+</kw>
+<kw name="${i} = 9" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.620" endtime="20200512 18:49:41.620"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.620" endtime="20200512 18:49:41.620"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.611" endtime="20200512 18:49:41.620"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:49:41.609" endtime="20200512 18:49:41.621" critical="yes"></status>
+</test>
+<test id="s1-s6-t2" name="TC_006-2 print loop values">
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>Hello</arg>
+<arg>22</arg>
+<arg>22.23</arg>
+<arg>World</arg>
+<arg>Abc123</arg>
+</arguments>
+<assign>
+<var>@{List1}</var>
+</assign>
+<msg timestamp="20200512 18:49:41.624" level="INFO">@{List1} = [ Hello | 22 | 22.23 | World | Abc123 ]</msg>
+<status status="PASS" starttime="20200512 18:49:41.623" endtime="20200512 18:49:41.624"></status>
+</kw>
+<kw name="${i} IN [ @{List1} ]" type="for">
+<kw name="${i} = Hello" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.625" endtime="20200512 18:49:41.625"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.625" endtime="20200512 18:49:41.625"></status>
+</kw>
+<kw name="${i} = 22" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.625" endtime="20200512 18:49:41.626"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.625" endtime="20200512 18:49:41.626"></status>
+</kw>
+<kw name="${i} = 22.23" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.626" endtime="20200512 18:49:41.627"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.626" endtime="20200512 18:49:41.627"></status>
+</kw>
+<kw name="${i} = World" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.628" endtime="20200512 18:49:41.630"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.628" endtime="20200512 18:49:41.630"></status>
+</kw>
+<kw name="${i} = Abc123" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.630" endtime="20200512 18:49:41.630"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.630" endtime="20200512 18:49:41.631"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.624" endtime="20200512 18:49:41.631"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:49:41.622" endtime="20200512 18:49:41.631" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:49:41.605" endtime="20200512 18:49:41.632"></status>
+</suite>
+<suite id="s1-s7" name="TC 007 Keyword Variable" source="C:\PycharmProjects\Automation\TestCases\TC_007_Keyword_Variable.robot">
+<test id="s1-s7-t1" name="TC_007-1 Run Keyword">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>log to console</arg>
+</arguments>
+<assign>
+<var>${Key_var}</var>
+</assign>
+<msg timestamp="20200512 18:49:41.640" level="INFO">${Key_var} = log to console</msg>
+<status status="PASS" starttime="20200512 18:49:41.640" endtime="20200512 18:49:41.640"></status>
+</kw>
+<kw name="Run Keyword" library="BuiltIn">
+<doc>Executes the given keyword with the given arguments.</doc>
+<arguments>
+<arg>${Key_var}</arg>
+<arg>TestingWorld</arg>
+</arguments>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>TestingWorld</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.641" endtime="20200512 18:49:41.641"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.641" endtime="20200512 18:49:41.641"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:49:41.638" endtime="20200512 18:49:41.642" critical="yes"></status>
+</test>
+<test id="s1-s7-t2" name="TC_007-2 Run Keyword If">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>NO</arg>
+</arguments>
+<assign>
+<var>${var}</var>
+</assign>
+<msg timestamp="20200512 18:49:41.644" level="INFO">${var} = NO</msg>
+<status status="PASS" starttime="20200512 18:49:41.643" endtime="20200512 18:49:41.644"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${var}'=='YES'</arg>
+<arg>log to console</arg>
+<arg>Value Found</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.644" endtime="20200512 18:49:41.645"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${var}'=='NO'</arg>
+<arg>log to console</arg>
+<arg>value not found</arg>
+</arguments>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>value not found</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:41.646" endtime="20200512 18:49:41.646"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:49:41.646" endtime="20200512 18:49:41.646"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:49:41.643" endtime="20200512 18:49:41.647" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:49:41.634" endtime="20200512 18:49:41.649"></status>
+</suite>
+<suite id="s1-s8" name="TC 008 WindowSize Speed Sleep Wait" source="C:\PycharmProjects\Automation\TestCases\TC_008_WindowSize_Speed_Sleep_Wait.robot">
+<test id="s1-s8-t1" name="TC_008 WindowSize - Speed - Sleep - Wait">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:49:41.658" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20200512 18:49:41.658" endtime="20200512 18:49:48.347"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1024</arg>
+<arg>768</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:48.347" endtime="20200512 18:49:48.969"></status>
+</kw>
+<kw name="Get Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Gets the implicit wait value used by Selenium.</doc>
+<assign>
+<var>${default_timeout}</var>
+</assign>
+<msg timestamp="20200512 18:49:48.970" level="INFO">${default_timeout} = 0 seconds</msg>
+<status status="PASS" starttime="20200512 18:49:48.969" endtime="20200512 18:49:48.970"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${default_timeout}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:48.970" endtime="20200512 18:49:48.970"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>20 seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:48.971" endtime="20200512 18:49:49.473"></status>
+</kw>
+<kw name="Get Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Gets the implicit wait value used by Selenium.</doc>
+<assign>
+<var>${default_timeout}</var>
+</assign>
+<msg timestamp="20200512 18:49:49.474" level="INFO">${default_timeout} = 20 seconds</msg>
+<status status="PASS" starttime="20200512 18:49:49.474" endtime="20200512 18:49:49.474"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${default_timeout}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:49.475" endtime="20200512 18:49:49.475"></status>
+</kw>
+<kw name="Get Selenium Speed" library="SeleniumLibrary">
+<doc>Gets the delay that is waited after each Selenium command.</doc>
+<assign>
+<var>${speed}</var>
+</assign>
+<msg timestamp="20200512 18:49:49.476" level="INFO">${speed} = 500 milliseconds</msg>
+<status status="PASS" starttime="20200512 18:49:49.476" endtime="20200512 18:49:49.476"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${speed}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:49.477" endtime="20200512 18:49:49.477"></status>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>0.3 seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:49.480" endtime="20200512 18:49:49.480"></status>
+</kw>
+<kw name="Get Selenium Speed" library="SeleniumLibrary">
+<doc>Gets the delay that is waited after each Selenium command.</doc>
+<assign>
+<var>${speed}</var>
+</assign>
+<msg timestamp="20200512 18:49:49.480" level="INFO">${speed} = 300 milliseconds</msg>
+<status status="PASS" starttime="20200512 18:49:49.480" endtime="20200512 18:49:49.480"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${speed}</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:49:49.480" endtime="20200512 18:49:49.481"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>coolrakesh_in</arg>
+</arguments>
+<msg timestamp="20200512 18:49:49.481" level="INFO">Typing text 'coolrakesh_in' into text field 'name:fld_username'.</msg>
+<status status="PASS" starttime="20200512 18:49:49.481" endtime="20200512 18:49:50.518"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://input[@name='fld_email']</arg>
+<arg>rakesh.ranjan@rediffmail.com</arg>
+</arguments>
+<msg timestamp="20200512 18:49:50.519" level="INFO">Typing text 'rakesh.ranjan@rediffmail.com' into text field 'xpath://input[@name='fld_email']'.</msg>
+<status status="PASS" starttime="20200512 18:49:50.519" endtime="20200512 18:49:51.624"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:49:51.625" level="INFO">Typing text 'iBall@iBall' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20200512 18:49:51.625" endtime="20200512 18:49:52.655"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_cpassword</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:49:52.656" level="INFO">Typing text 'iBall@iBall' into text field 'name:fld_cpassword'.</msg>
+<status status="PASS" starttime="20200512 18:49:52.655" endtime="20200512 18:49:53.678"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:dob</arg>
+<arg>12/04/2020</arg>
+</arguments>
+<msg timestamp="20200512 18:49:53.679" level="INFO">Typing text '12/04/2020' into text field 'name:dob'.</msg>
+<status status="PASS" starttime="20200512 18:49:53.678" endtime="20200512 18:49:54.786"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:phone</arg>
+<arg>8376011283</arg>
+</arguments>
+<msg timestamp="20200512 18:49:54.787" level="INFO">Typing text '8376011283' into text field 'name:phone'.</msg>
+<status status="PASS" starttime="20200512 18:49:54.787" endtime="20200512 18:49:55.816"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:address</arg>
+<arg>New Delhi</arg>
+</arguments>
+<msg timestamp="20200512 18:49:55.817" level="INFO">Typing text 'New Delhi' into text field 'name:address'.</msg>
+<status status="PASS" starttime="20200512 18:49:55.816" endtime="20200512 18:49:56.832"></status>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<arguments>
+<arg>add_type</arg>
+<arg>office</arg>
+</arguments>
+<msg timestamp="20200512 18:49:56.833" level="INFO">Selecting 'office' from radio button 'add_type'.</msg>
+<status status="PASS" starttime="20200512 18:49:56.832" endtime="20200512 18:49:57.806"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200512 18:49:59.806" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200512 18:49:57.806" endtime="20200512 18:49:59.806"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:49:59.807" endtime="20200512 18:50:02.162"></status>
+</kw>
+<tags>
+<tag>Regression</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:49:41.655" endtime="20200512 18:50:02.163" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:49:41.651" endtime="20200512 18:50:02.165"></status>
+</suite>
+<suite id="s1-s9" name="TC 009 Capture Screenshots" source="C:\PycharmProjects\Automation\TestCases\TC_009_Capture_Screenshots.robot">
+<test id="s1-s9-t1" name="TC_009 WindowSize - Speed - Sleep - Wait">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:50:02.174" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20200512 18:50:02.173" endtime="20200512 18:50:09.237"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1024</arg>
+<arg>768</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:50:09.237" endtime="20200512 18:50:09.658"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>coolrakesh_in</arg>
+</arguments>
+<msg timestamp="20200512 18:50:09.659" level="INFO">Typing text 'coolrakesh_in' into text field 'name:fld_username'.</msg>
+<status status="PASS" starttime="20200512 18:50:09.658" endtime="20200512 18:50:10.708"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://input[@name='fld_email']</arg>
+<arg>rakesh.ranjan@rediffmail.com</arg>
+</arguments>
+<msg timestamp="20200512 18:50:10.709" level="INFO">Typing text 'rakesh.ranjan@rediffmail.com' into text field 'xpath://input[@name='fld_email']'.</msg>
+<status status="PASS" starttime="20200512 18:50:10.709" endtime="20200512 18:50:11.771"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:50:11.772" level="INFO">Typing text 'iBall@iBall' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20200512 18:50:11.771" endtime="20200512 18:50:12.781"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_cpassword</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:50:12.781" level="INFO">Typing text 'iBall@iBall' into text field 'name:fld_cpassword'.</msg>
+<status status="PASS" starttime="20200512 18:50:12.781" endtime="20200512 18:50:13.778"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:dob</arg>
+<arg>12/04/2020</arg>
+</arguments>
+<msg timestamp="20200512 18:50:13.779" level="INFO">Typing text '12/04/2020' into text field 'name:dob'.</msg>
+<status status="PASS" starttime="20200512 18:50:13.778" endtime="20200512 18:50:14.871"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>./Snapshots/Cap001.png</arg>
+</arguments>
+<msg timestamp="20200512 18:50:15.517" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Snapshots/Cap001.png"&gt;&lt;img src="Snapshots/Cap001.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200512 18:50:14.871" endtime="20200512 18:50:15.517"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200512 18:50:17.520" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200512 18:50:15.518" endtime="20200512 18:50:17.520"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:50:17.521" endtime="20200512 18:50:19.889"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:50:02.173" endtime="20200512 18:50:19.889" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:50:02.169" endtime="20200512 18:50:19.890"></status>
+</suite>
+<suite id="s1-s10" name="TC 010 Close All Browsers" source="C:\PycharmProjects\Automation\TestCases\TC_010_Close_All_Browsers.robot">
+<test id="s1-s10-t1" name="TC_010 Close All Browsers">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:50:19.898" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20200512 18:50:19.898" endtime="20200512 18:50:28.444"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1024</arg>
+<arg>768</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:50:28.444" endtime="20200512 18:50:28.862"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>coolrakesh_in</arg>
+</arguments>
+<msg timestamp="20200512 18:50:28.863" level="INFO">Typing text 'coolrakesh_in' into text field 'name:fld_username'.</msg>
+<status status="PASS" starttime="20200512 18:50:28.863" endtime="20200512 18:50:29.905"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://input[@name='fld_email']</arg>
+<arg>rakesh.ranjan@rediffmail.com</arg>
+</arguments>
+<msg timestamp="20200512 18:50:29.905" level="INFO">Typing text 'rakesh.ranjan@rediffmail.com' into text field 'xpath://input[@name='fld_email']'.</msg>
+<status status="PASS" starttime="20200512 18:50:29.905" endtime="20200512 18:50:30.981"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:50:30.982" level="INFO">Typing text 'iBall@iBall' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20200512 18:50:30.982" endtime="20200512 18:50:32.005"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_cpassword</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:50:32.006" level="INFO">Typing text 'iBall@iBall' into text field 'name:fld_cpassword'.</msg>
+<status status="PASS" starttime="20200512 18:50:32.005" endtime="20200512 18:50:33.022"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:dob</arg>
+<arg>12/04/2020</arg>
+</arguments>
+<msg timestamp="20200512 18:50:33.022" level="INFO">Typing text '12/04/2020' into text field 'name:dob'.</msg>
+<status status="PASS" starttime="20200512 18:50:33.022" endtime="20200512 18:50:34.138"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:50:34.138" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20200512 18:50:34.138" endtime="20200512 18:50:39.989"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1024</arg>
+<arg>768</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:50:39.989" endtime="20200512 18:50:40.407"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>coolrakesh_in</arg>
+</arguments>
+<msg timestamp="20200512 18:50:40.408" level="INFO">Typing text 'coolrakesh_in' into text field 'name:fld_username'.</msg>
+<status status="PASS" starttime="20200512 18:50:40.408" endtime="20200512 18:50:41.443"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://input[@name='fld_email']</arg>
+<arg>rakesh.ranjan@rediffmail.com</arg>
+</arguments>
+<msg timestamp="20200512 18:50:41.444" level="INFO">Typing text 'rakesh.ranjan@rediffmail.com' into text field 'xpath://input[@name='fld_email']'.</msg>
+<status status="PASS" starttime="20200512 18:50:41.443" endtime="20200512 18:50:42.529"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:50:42.530" level="INFO">Typing text 'iBall@iBall' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20200512 18:50:42.530" endtime="20200512 18:50:43.549"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_cpassword</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:50:43.550" level="INFO">Typing text 'iBall@iBall' into text field 'name:fld_cpassword'.</msg>
+<status status="PASS" starttime="20200512 18:50:43.550" endtime="20200512 18:50:44.587"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:dob</arg>
+<arg>12/04/2020</arg>
+</arguments>
+<msg timestamp="20200512 18:50:44.590" level="INFO">Typing text '12/04/2020' into text field 'name:dob'.</msg>
+<status status="PASS" starttime="20200512 18:50:44.589" endtime="20200512 18:50:45.688"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200512 18:50:47.689" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200512 18:50:45.688" endtime="20200512 18:50:47.689"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200512 18:50:47.690" endtime="20200512 18:50:52.434"></status>
+</kw>
+<tags>
+<tag>Regression</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:50:19.897" endtime="20200512 18:50:52.435" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:50:19.893" endtime="20200512 18:50:52.437"></status>
+</suite>
+<suite id="s1-s11" name="TC 011 GoTo GoBack GetLocation" source="C:\PycharmProjects\Automation\TestCases\TC_011_GoTo_GoBack_GetLocation.robot">
+<test id="s1-s11-t1" name="TC_011 GoTo GoBack GetLocation SimulateKey">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:50:52.445" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20200512 18:50:52.444" endtime="20200512 18:50:59.767"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1024</arg>
+<arg>768</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:50:59.767" endtime="20200512 18:51:00.189"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>fld_username</arg>
+<arg>coolrakesh_in</arg>
+</arguments>
+<msg timestamp="20200512 18:51:00.190" level="INFO">Typing text 'coolrakesh_in' into text field 'fld_username'.</msg>
+<status status="PASS" starttime="20200512 18:51:00.189" endtime="20200512 18:51:01.228"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://input[@name='fld_email']</arg>
+<arg>rakesh.ranjan@rediffmail.com</arg>
+</arguments>
+<msg timestamp="20200512 18:51:01.229" level="INFO">Typing text 'rakesh.ranjan@rediffmail.com' into text field 'xpath://input[@name='fld_email']'.</msg>
+<status status="PASS" starttime="20200512 18:51:01.229" endtime="20200512 18:51:02.304"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>fld_password</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:51:02.304" level="INFO">Typing text 'iBall@iBall' into text field 'fld_password'.</msg>
+<status status="PASS" starttime="20200512 18:51:02.304" endtime="20200512 18:51:03.305"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>fld_cpassword</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:51:03.307" level="INFO">Typing text 'iBall@iBall' into text field 'fld_cpassword'.</msg>
+<status status="PASS" starttime="20200512 18:51:03.305" endtime="20200512 18:51:04.312"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>dob</arg>
+<arg>12/04/2020</arg>
+</arguments>
+<msg timestamp="20200512 18:51:04.312" level="INFO">Typing text '12/04/2020' into text field 'dob'.</msg>
+<status status="PASS" starttime="20200512 18:51:04.312" endtime="20200512 18:51:05.407"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<arguments>
+<arg>${URL2}</arg>
+</arguments>
+<msg timestamp="20200512 18:51:05.408" level="INFO">Opening url 'https://opensource-demo.orangehrmlive.com/index.php/dashboard'</msg>
+<status status="PASS" starttime="20200512 18:51:05.407" endtime="20200512 18:51:09.664"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>txtUsername</arg>
+<arg>Admin</arg>
+</arguments>
+<msg timestamp="20200512 18:51:09.666" level="INFO">Sending key(s) ('Admin',) to txtUsername element.</msg>
+<msg timestamp="20200512 18:51:10.562" level="INFO">Sending keys Admin</msg>
+<status status="PASS" starttime="20200512 18:51:09.665" endtime="20200512 18:51:10.876"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>id:txtPassword</arg>
+<arg>admin123</arg>
+</arguments>
+<msg timestamp="20200512 18:51:10.877" level="INFO">Sending key(s) ('admin123',) to id:txtPassword element.</msg>
+<msg timestamp="20200512 18:51:11.755" level="INFO">Sending keys admin123</msg>
+<msg timestamp="20200512 18:51:12.075" level="INFO">c:\python\python36\lib\site-packages\selenium\webdriver\remote\webdriver.py:400: UserWarning: find_elements_by_* commands are deprecated. Please use find_elements() instead
+  warnings.warn("find_elements_by_* commands are deprecated. Please use find_elements() instead")</msg>
+<status status="PASS" starttime="20200512 18:51:10.876" endtime="20200512 18:51:12.075"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>xpath://input[@type='submit']</arg>
+<arg>\\13</arg>
+</arguments>
+<msg timestamp="20200512 18:51:12.078" level="INFO">Sending key(s) ('\\13',) to xpath://input[@type='submit'] element.</msg>
+<msg timestamp="20200512 18:51:16.030" level="INFO">Sending keys \13</msg>
+<status status="PASS" starttime="20200512 18:51:12.077" endtime="20200512 18:51:18.290"></status>
+</kw>
+<kw name="Get Location" library="SeleniumLibrary">
+<doc>Returns the current browser window URL.</doc>
+<assign>
+<var>${url}</var>
+</assign>
+<msg timestamp="20200512 18:51:18.598" level="INFO">${url} = https://opensource-demo.orangehrmlive.com/index.php/dashboard</msg>
+<status status="PASS" starttime="20200512 18:51:18.290" endtime="20200512 18:51:18.598"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${url}</arg>
+</arguments>
+<msg timestamp="20200512 18:51:18.599" level="INFO">https://opensource-demo.orangehrmlive.com/index.php/dashboard</msg>
+<status status="PASS" starttime="20200512 18:51:18.599" endtime="20200512 18:51:18.599"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200512 18:51:20.602" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200512 18:51:18.599" endtime="20200512 18:51:20.602"></status>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" starttime="20200512 18:51:20.602" endtime="20200512 18:51:20.965"></status>
+</kw>
+<kw name="Go Back" library="SeleniumLibrary">
+<doc>Simulates the user clicking the back button on their browser.</doc>
+<status status="PASS" starttime="20200512 18:51:20.966" endtime="20200512 18:51:22.318"></status>
+</kw>
+<kw name="Get Location" library="SeleniumLibrary">
+<doc>Returns the current browser window URL.</doc>
+<assign>
+<var>${url}</var>
+</assign>
+<msg timestamp="20200512 18:51:22.625" level="INFO">${url} = https://www.thetestingworld.com/testings/</msg>
+<status status="PASS" starttime="20200512 18:51:22.319" endtime="20200512 18:51:22.625"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${url}</arg>
+</arguments>
+<msg timestamp="20200512 18:51:22.626" level="INFO">https://www.thetestingworld.com/testings/</msg>
+<status status="PASS" starttime="20200512 18:51:22.626" endtime="20200512 18:51:22.627"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200512 18:51:24.630" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200512 18:51:22.628" endtime="20200512 18:51:24.630"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:51:24.632" endtime="20200512 18:51:27.007"></status>
+</kw>
+<tags>
+<tag>Regression</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:50:52.443" endtime="20200512 18:51:27.007" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:50:52.440" endtime="20200512 18:51:27.008"></status>
+</suite>
+<suite id="s1-s12" name="TC 012 ExecuteJavaScript ScrollDown" source="C:\PycharmProjects\Automation\TestCases\TC_012_ExecuteJavaScript_ScrollDown.robot">
+<test id="s1-s12-t1" name="TC_012 ExecuteJavascript i.e. ScrollDown">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:51:27.016" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20200512 18:51:27.016" endtime="20200512 18:51:34.510"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1024</arg>
+<arg>768</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:51:34.510" endtime="20200512 18:51:34.927"></status>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(0,500)</arg>
+</arguments>
+<msg timestamp="20200512 18:51:34.928" level="INFO">Executing JavaScript:
+window.scrollTo(0,500)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200512 18:51:34.927" endtime="20200512 18:51:35.236"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>name:zip</arg>
+<arg>560064</arg>
+</arguments>
+<msg timestamp="20200512 18:51:35.237" level="INFO">Sending key(s) ('560064',) to name:zip element.</msg>
+<msg timestamp="20200512 18:51:36.126" level="INFO">Sending keys 560064</msg>
+<status status="PASS" starttime="20200512 18:51:35.236" endtime="20200512 18:51:36.457"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>./Snapshots/TC_012.png</arg>
+</arguments>
+<msg timestamp="20200512 18:51:37.086" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Snapshots/TC_012.png"&gt;&lt;img src="Snapshots/TC_012.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200512 18:51:36.457" endtime="20200512 18:51:37.086"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2 seconds</arg>
+</arguments>
+<msg timestamp="20200512 18:51:39.089" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20200512 18:51:37.088" endtime="20200512 18:51:39.089"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:51:39.091" endtime="20200512 18:51:41.484"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:51:27.015" endtime="20200512 18:51:41.486" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:51:27.011" endtime="20200512 18:51:41.490"></status>
+</suite>
+<suite id="s1-s13" name="TC 013 Using Mouse" source="C:\PycharmProjects\Automation\TestCases\TC_013_Using_Mouse.robot">
+<test id="s1-s13-t1" name="TC_013-1 Using Mouse Right Click option to Open Context Menu">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:51:41.510" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com'.</msg>
+<status status="PASS" starttime="20200512 18:51:41.509" endtime="20200512 18:51:49.390"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1024</arg>
+<arg>768</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:51:49.390" endtime="20200512 18:51:49.811"></status>
+</kw>
+<kw name="Open Context Menu" library="SeleniumLibrary">
+<doc>Opens the context menu on the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://span[contains(text(),'VIDEOS')]</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:51:49.811" endtime="20200512 18:51:50.729"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>0.5 seconds</arg>
+</arguments>
+<msg timestamp="20200512 18:51:51.231" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200512 18:51:50.729" endtime="20200512 18:51:51.231"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:51:51.231" endtime="20200512 18:51:53.584"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:51:41.507" endtime="20200512 18:51:53.585" critical="yes"></status>
+</test>
+<test id="s1-s13-t2" name="TC_013-2 Using Double Click option">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL4}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:51:53.589" level="INFO">Opening browser 'Chrome' to base url 'http://omayo.blogspot.com/'.</msg>
+<status status="PASS" starttime="20200512 18:51:53.589" endtime="20200512 18:51:59.956"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1200</arg>
+<arg>768</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:51:59.956" endtime="20200512 18:52:00.831"></status>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(500,1500)</arg>
+</arguments>
+<msg timestamp="20200512 18:52:00.833" level="INFO">Executing JavaScript:
+window.scrollTo(500,1500)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200512 18:52:00.831" endtime="20200512 18:52:01.143"></status>
+</kw>
+<kw name="Double Click Element" library="SeleniumLibrary">
+<doc>Double clicks the element identified by ``locator``.</doc>
+<arguments>
+<arg>id:testdoubleclick</arg>
+</arguments>
+<msg timestamp="20200512 18:52:01.144" level="INFO">Double clicking element 'id:testdoubleclick'.</msg>
+<status status="PASS" starttime="20200512 18:52:01.144" endtime="20200512 18:52:02.027"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>./Snapshots/TC_013.png</arg>
+</arguments>
+<msg timestamp="20200512 18:52:02.613" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Snapshots/TC_013.png"&gt;&lt;img src="Snapshots/TC_013.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200512 18:52:02.027" endtime="20200512 18:52:02.613"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>0.5 seconds</arg>
+</arguments>
+<msg timestamp="20200512 18:52:03.115" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200512 18:52:02.613" endtime="20200512 18:52:03.115"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:52:03.116" endtime="20200512 18:52:05.518"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:51:53.588" endtime="20200512 18:52:05.519" critical="yes"></status>
+</test>
+<test id="s1-s13-t3" name="TC_013-3 Using Mouse Down and Mouse Up option">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL3}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:52:05.525" level="INFO">Opening browser 'Chrome' to base url 'https://www.qtpselenium.com'.</msg>
+<status status="PASS" starttime="20200512 18:52:05.525" endtime="20200512 18:52:11.971"></status>
+</kw>
+<kw name="Mouse Down" library="SeleniumLibrary">
+<doc>Simulates pressing the left mouse button on the element ``locator``.</doc>
+<arguments>
+<arg>link=All Courses</arg>
+</arguments>
+<msg timestamp="20200512 18:52:11.972" level="INFO">Simulating Mouse Down on element 'link=All Courses'.</msg>
+<msg timestamp="20200512 18:52:12.938" level="INFO">c:\python\python36\lib\site-packages\selenium\webdriver\remote\webdriver.py:480: UserWarning: find_elements_by_* commands are deprecated. Please use find_elements() instead
+  warnings.warn("find_elements_by_* commands are deprecated. Please use find_elements() instead")</msg>
+<status status="PASS" starttime="20200512 18:52:11.971" endtime="20200512 18:52:12.938"></status>
+</kw>
+<kw name="Mouse Up" library="SeleniumLibrary">
+<doc>Simulates releasing the left mouse button on the element ``locator``.</doc>
+<arguments>
+<arg>link=All Courses</arg>
+</arguments>
+<msg timestamp="20200512 18:52:12.940" level="INFO">Simulating Mouse Up on element 'link=All Courses'.</msg>
+<status status="PASS" starttime="20200512 18:52:12.939" endtime="20200512 18:52:13.865"></status>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(0,1000)</arg>
+</arguments>
+<msg timestamp="20200512 18:52:13.867" level="INFO">Executing JavaScript:
+window.scrollTo(0,1000)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200512 18:52:13.866" endtime="20200512 18:52:14.175"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>0.5 seconds</arg>
+</arguments>
+<msg timestamp="20200512 18:52:14.677" level="INFO">Slept 500 milliseconds</msg>
+<status status="PASS" starttime="20200512 18:52:14.175" endtime="20200512 18:52:14.677"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:52:14.677" endtime="20200512 18:52:17.057"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:52:05.523" endtime="20200512 18:52:17.058" critical="yes"></status>
+</test>
+<test id="s1-s13-t4" name="TC_013-4 Using Mouse Over option">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:52:17.061" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com'.</msg>
+<status status="PASS" starttime="20200512 18:52:17.061" endtime="20200512 18:52:24.115"></status>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering the mouse over the element ``locator``.</doc>
+<arguments>
+<arg>xpath://span[contains(text(),'VIDEOS')]</arg>
+</arguments>
+<msg timestamp="20200512 18:52:24.116" level="INFO">Simulating Mouse Over on element 'xpath://span[contains(text(),'VIDEOS')]'.</msg>
+<status status="PASS" starttime="20200512 18:52:24.116" endtime="20200512 18:52:25.008"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5 seconds</arg>
+</arguments>
+<msg timestamp="20200512 18:52:30.011" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200512 18:52:25.009" endtime="20200512 18:52:30.011"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:52:30.011" endtime="20200512 18:52:32.389"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:52:17.060" endtime="20200512 18:52:32.390" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:51:41.502" endtime="20200512 18:52:32.391"></status>
+</suite>
+<suite id="s1-s14" name="TC 014 Using Wait" source="C:\PycharmProjects\Automation\TestCases\TC_014_Using_Wait.robot">
+<test id="s1-s14-t1" name="TC_014-1 Using Wait Until Page Contains Command">
+<kw name="Open Browser and Maximize" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:52:32.402" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com'.</msg>
+<status status="PASS" starttime="20200512 18:52:32.402" endtime="20200512 18:52:39.229"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200512 18:52:39.229" endtime="20200512 18:52:39.704"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:52:32.401" endtime="20200512 18:52:39.704"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>VIDEO</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:52:39.705" endtime="20200512 18:52:40.036"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://span[contains(text(),'VIDEOS')]</arg>
+</arguments>
+<msg timestamp="20200512 18:52:40.037" level="INFO">Clicking element 'xpath://span[contains(text(),'VIDEOS')]'.</msg>
+<status status="PASS" starttime="20200512 18:52:40.037" endtime="20200512 18:52:40.697"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5 seconds</arg>
+</arguments>
+<msg timestamp="20200512 18:52:45.699" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200512 18:52:40.697" endtime="20200512 18:52:45.699"></status>
+</kw>
+<kw name="Close Browser Window" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:52:45.700" endtime="20200512 18:52:48.085"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:52:45.700" endtime="20200512 18:52:48.085"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:52:32.399" endtime="20200512 18:52:48.086" critical="yes"></status>
+</test>
+<test id="s1-s14-t2" name="TC_014-2 Using Timeout Command">
+<kw name="Open Browser and Maximize" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:52:48.088" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com'.</msg>
+<status status="PASS" starttime="20200512 18:52:48.088" endtime="20200512 18:52:54.891"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200512 18:52:54.891" endtime="20200512 18:52:55.312"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:52:48.087" endtime="20200512 18:52:55.312"></status>
+</kw>
+<kw name="Set Selenium Timeout" library="SeleniumLibrary">
+<doc>Sets the timeout that is used by various keywords.</doc>
+<arguments>
+<arg>10 seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:52:55.313" endtime="20200512 18:52:55.614"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>VIDEO</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:52:55.614" endtime="20200512 18:52:55.931"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://span[contains(text(),'VIDEOS')]</arg>
+</arguments>
+<msg timestamp="20200512 18:52:55.932" level="INFO">Clicking element 'xpath://span[contains(text(),'VIDEOS')]'.</msg>
+<status status="PASS" starttime="20200512 18:52:55.932" endtime="20200512 18:52:56.595"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5 seconds</arg>
+</arguments>
+<msg timestamp="20200512 18:53:01.597" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20200512 18:52:56.595" endtime="20200512 18:53:01.597"></status>
+</kw>
+<kw name="Close Browser Window" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:53:01.599" endtime="20200512 18:53:03.984"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:53:01.598" endtime="20200512 18:53:03.984"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:52:48.087" endtime="20200512 18:53:03.985" critical="yes"></status>
+</test>
+<test id="s1-s14-t3" name="TC_014-3 Using Wait Until Page Contains Element Command">
+<kw name="Open Browser and Maximize" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:53:03.988" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com'.</msg>
+<status status="PASS" starttime="20200512 18:53:03.988" endtime="20200512 18:53:10.957"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200512 18:53:10.957" endtime="20200512 18:53:11.379"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:53:03.987" endtime="20200512 18:53:11.379"></status>
+</kw>
+<kw name="Set Selenium Timeout" library="SeleniumLibrary">
+<doc>Sets the timeout that is used by various keywords.</doc>
+<arguments>
+<arg>10 seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:53:11.380" endtime="20200512 18:53:11.681"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<arguments>
+<arg>xpath://span[contains(text(),'VIDEOS')]</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:53:11.681" endtime="20200512 18:53:12.000"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1 seconds</arg>
+</arguments>
+<msg timestamp="20200512 18:53:13.002" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200512 18:53:12.000" endtime="20200512 18:53:13.002"></status>
+</kw>
+<kw name="Close Browser Window" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:53:13.005" endtime="20200512 18:53:15.374"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:53:13.004" endtime="20200512 18:53:15.374"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:53:03.987" endtime="20200512 18:53:15.375" critical="yes"></status>
+</test>
+<test id="s1-s14-t4" name="TC_014-4 Using Wait Until Element Contains Command">
+<kw name="Open Browser and Maximize" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:53:15.379" level="INFO">Opening browser 'Chrome' to base url 'http://www.thetestingworld.com'.</msg>
+<status status="PASS" starttime="20200512 18:53:15.378" endtime="20200512 18:53:22.334"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200512 18:53:22.335" endtime="20200512 18:53:22.807"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:53:15.378" endtime="20200512 18:53:22.807"></status>
+</kw>
+<kw name="Set Selenium Timeout" library="SeleniumLibrary">
+<doc>Sets the timeout that is used by various keywords.</doc>
+<arguments>
+<arg>10 seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:53:22.808" endtime="20200512 18:53:23.110"></status>
+</kw>
+<kw name="Wait Until Element Contains" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` contains ``text``.</doc>
+<arguments>
+<arg>xpath://a[text()='Login']</arg>
+<arg>Login</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:53:23.110" endtime="20200512 18:53:23.753"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://a[text()='Login']</arg>
+</arguments>
+<msg timestamp="20200512 18:53:23.754" level="INFO">Clicking link 'xpath://a[text()='Login']'.</msg>
+<status status="PASS" starttime="20200512 18:53:23.754" endtime="20200512 18:53:26.780"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1 seconds</arg>
+</arguments>
+<msg timestamp="20200512 18:53:27.782" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200512 18:53:26.780" endtime="20200512 18:53:27.782"></status>
+</kw>
+<kw name="Close Browser Window" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:53:27.784" endtime="20200512 18:53:30.166"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:53:27.784" endtime="20200512 18:53:30.166"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:53:15.377" endtime="20200512 18:53:30.166" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:52:32.394" endtime="20200512 18:53:30.171"></status>
+</suite>
+<suite id="s1-s15" name="TC 015 Switch Window" source="C:\PycharmProjects\Automation\TestCases\TC_015_Switch_Window.robot">
+<test id="s1-s15-t1" name="TC_015-1 Switch To Another Window">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url1}</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20200512 18:53:30.180" level="INFO">Opening browser 'Chrome' to base url 'http://www.orangehrm.com/'.</msg>
+<status status="PASS" starttime="20200512 18:53:30.180" endtime="20200512 18:53:41.244"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200512 18:53:41.244" endtime="20200512 18:53:41.663"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url2}</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20200512 18:53:41.666" level="INFO">Opening browser 'Chrome' to base url 'https://thetestingworld.com/'.</msg>
+<status status="PASS" starttime="20200512 18:53:41.665" endtime="20200512 18:53:48.761"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200512 18:53:48.762" endtime="20200512 18:53:49.225"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>30 seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:53:49.226" endtime="20200512 18:53:49.829"></status>
+</kw>
+<kw name="Switch Browser" library="SeleniumLibrary">
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:53:49.829" endtime="20200512 18:53:49.830"></status>
+</kw>
+<kw name="Get Location" library="SeleniumLibrary">
+<doc>Returns the current browser window URL.</doc>
+<assign>
+<var>${var1}</var>
+</assign>
+<msg timestamp="20200512 18:53:51.836" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00B306D0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /session/444c365ed1d9fddde59f06653d803250/url</msg>
+<msg timestamp="20200512 18:53:53.846" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00B305D0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /session/444c365ed1d9fddde59f06653d803250/url</msg>
+<msg timestamp="20200512 18:53:55.855" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00B300B0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /session/444c365ed1d9fddde59f06653d803250/url</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200512 18:53:59.871" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00B3F2D0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /session/444c365ed1d9fddde59f06653d803250/screenshot</msg>
+<msg timestamp="20200512 18:54:01.877" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00B30C30&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /session/444c365ed1d9fddde59f06653d803250/screenshot</msg>
+<msg timestamp="20200512 18:54:03.883" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00B2CBF0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /session/444c365ed1d9fddde59f06653d803250/screenshot</msg>
+<msg timestamp="20200512 18:54:05.897" level="FAIL">MaxRetryError: HTTPConnectionPool(host='localhost', port=56054): Max retries exceeded with url: /session/444c365ed1d9fddde59f06653d803250/screenshot (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0432FFD0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))</msg>
+<status status="FAIL" starttime="20200512 18:53:57.863" endtime="20200512 18:54:05.897"></status>
+</kw>
+<msg timestamp="20200512 18:54:05.897" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: MaxRetryError: HTTPConnectionPool(host='localhost', port=56054): Max retries exceeded with url: /session/444c365ed1d9fddde59f06653d803250/screenshot (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0432FFD0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))</msg>
+<msg timestamp="20200512 18:54:05.901" level="FAIL">MaxRetryError: HTTPConnectionPool(host='localhost', port=56054): Max retries exceeded with url: /session/444c365ed1d9fddde59f06653d803250/url (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00B30470&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))</msg>
+<status status="FAIL" starttime="20200512 18:53:49.830" endtime="20200512 18:54:05.901"></status>
+</kw>
+<tags>
+<tag>Regression</tag>
+</tags>
+<status status="FAIL" starttime="20200512 18:53:30.178" endtime="20200512 18:54:05.902" critical="yes">MaxRetryError: HTTPConnectionPool(host='localhost', port=56054): Max retries exceeded with url: /session/444c365ed1d9fddde59f06653d803250/url (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00B30470&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))</status>
+</test>
+<test id="s1-s15-t2" name="TC_015-2 Switch To Another Tab Window">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url3}</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20200512 18:54:05.906" level="INFO">Opening browser 'Chrome' to base url 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'.</msg>
+<status status="PASS" starttime="20200512 18:54:05.905" endtime="20200512 18:54:12.823"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200512 18:54:12.824" endtime="20200512 18:54:13.255"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="footer"]/div[1]/a</arg>
+</arguments>
+<msg timestamp="20200512 18:54:13.256" level="INFO">Clicking element 'xpath://*[@id="footer"]/div[1]/a'.</msg>
+<status status="PASS" starttime="20200512 18:54:13.255" endtime="20200512 18:54:14.009"></status>
+</kw>
+<kw name="Select Window" library="SeleniumLibrary">
+<doc>DEPRECATED in SeleniumLibrary 4.0. , use `Switch Window` instead.</doc>
+<arguments>
+<arg>HR Management System | HR Management Software | OrangeHRM</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:54:14.009" endtime="20200512 18:54:23.833"></status>
+</kw>
+<kw name="Get Location" library="SeleniumLibrary">
+<doc>Returns the current browser window URL.</doc>
+<assign>
+<var>${var1}</var>
+</assign>
+<msg timestamp="20200512 18:54:24.144" level="INFO">${var1} = https://www.orangehrm.com/</msg>
+<status status="PASS" starttime="20200512 18:54:23.833" endtime="20200512 18:54:24.144"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${var1}</arg>
+</arguments>
+<msg timestamp="20200512 18:54:24.145" level="INFO">https://www.orangehrm.com/</msg>
+<status status="PASS" starttime="20200512 18:54:24.145" endtime="20200512 18:54:24.145"></status>
+</kw>
+<kw name="Select Window" library="SeleniumLibrary">
+<doc>DEPRECATED in SeleniumLibrary 4.0. , use `Switch Window` instead.</doc>
+<arguments>
+<arg>OrangeHRM</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:54:24.146" endtime="20200512 18:54:26.590"></status>
+</kw>
+<kw name="Get Location" library="SeleniumLibrary">
+<doc>Returns the current browser window URL.</doc>
+<assign>
+<var>${var2}</var>
+</assign>
+<msg timestamp="20200512 18:54:26.895" level="INFO">${var2} = https://opensource-demo.orangehrmlive.com/index.php/auth/login</msg>
+<status status="PASS" starttime="20200512 18:54:26.590" endtime="20200512 18:54:26.895"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${var2}</arg>
+</arguments>
+<msg timestamp="20200512 18:54:26.895" level="INFO">https://opensource-demo.orangehrmlive.com/index.php/auth/login</msg>
+<status status="PASS" starttime="20200512 18:54:26.895" endtime="20200512 18:54:26.896"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20200512 18:54:26.896" endtime="20200512 18:54:34.049"></status>
+</kw>
+<tags>
+<tag>Regression</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:54:05.905" endtime="20200512 18:54:34.050" critical="yes"></status>
+</test>
+<test id="s1-s15-t3" name="TC_015-3 Switch To Another Tab Window">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url3}</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20200512 18:54:34.064" level="INFO">Opening browser 'Chrome' to base url 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'.</msg>
+<status status="PASS" starttime="20200512 18:54:34.063" endtime="20200512 18:54:40.626"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20200512 18:54:40.626" endtime="20200512 18:54:41.061"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>30 seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:54:41.061" endtime="20200512 18:54:41.364"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="footer"]/div[1]/a</arg>
+</arguments>
+<msg timestamp="20200512 18:54:41.365" level="INFO">Clicking element 'xpath://*[@id="footer"]/div[1]/a'.</msg>
+<status status="PASS" starttime="20200512 18:54:41.364" endtime="20200512 18:54:42.105"></status>
+</kw>
+<kw name="Get Window Handles" library="SeleniumLibrary">
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<assign>
+<var>${list1}</var>
+</assign>
+<msg timestamp="20200512 18:54:42.409" level="INFO">${list1} = ['CDwindow-31DF7882B02F40BF08F4BEF28E1C58FB', 'CDwindow-0F671E29BCE9B9EDABC1DCD6BB90DDA0']</msg>
+<status status="PASS" starttime="20200512 18:54:42.105" endtime="20200512 18:54:42.409"></status>
+</kw>
+<kw name="${win1} IN [ ${list1} ]" type="for">
+<kw name="${win1} = ['CDwindow-31DF7882B02F40BF08F4BEF28E1C58FB', 'CDwindow-0F671E29BCE9B9EDABC1DCD6BB90DDA0']" type="foritem">
+<kw name="Select Window" library="SeleniumLibrary">
+<doc>DEPRECATED in SeleniumLibrary 4.0. , use `Switch Window` instead.</doc>
+<arguments>
+<arg>${win1}</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200512 18:54:43.631" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200512 18:54:43.013" endtime="20200512 18:54:43.632"></status>
+</kw>
+<msg timestamp="20200512 18:54:43.634" level="FAIL">No window not matching excludes ['CDwindow-31DF7882B02F40BF08F4BEF28E1C58FB', 'CDwindow-0F671E29BCE9B9EDABC1DCD6BB90DDA0'] found.</msg>
+<status status="FAIL" starttime="20200512 18:54:42.410" endtime="20200512 18:54:43.634"></status>
+</kw>
+<status status="FAIL" starttime="20200512 18:54:42.410" endtime="20200512 18:54:43.634"></status>
+</kw>
+<status status="FAIL" starttime="20200512 18:54:42.409" endtime="20200512 18:54:43.634"></status>
+</kw>
+<tags>
+<tag>Regression</tag>
+</tags>
+<status status="FAIL" starttime="20200512 18:54:34.060" endtime="20200512 18:54:43.636" critical="yes">No window not matching excludes ['CDwindow-31DF7882B02F40BF08F4BEF28E1C58FB', 'CDwindow-0F671E29BCE9B9EDABC1DCD6BB90DDA0'] found.</status>
+</test>
+<status status="FAIL" starttime="20200512 18:53:30.173" endtime="20200512 18:54:43.643"></status>
+</suite>
+<suite id="s1-s16" name="TC 016 Using Validations" source="C:\PycharmProjects\Automation\TestCases\TC_016_Using_Validations.robot">
+<test id="s1-s16-t1" name="TC_016-1 Using Validations">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url2}</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20200512 18:54:43.659" level="INFO">Opening browser 'Chrome' to base url 'https://opensource-demo.orangehrmlive.com/index.php/auth/login'.</msg>
+<status status="PASS" starttime="20200512 18:54:43.658" endtime="20200512 18:54:50.242"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1080</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:54:50.243" endtime="20200512 18:54:50.673"></status>
+</kw>
+<kw name="Page Should Contain Textfield" library="SeleniumLibrary">
+<doc>Verifies text field ``locator`` is found from current page.</doc>
+<arguments>
+<arg>id:txtUsername</arg>
+</arguments>
+<msg timestamp="20200512 18:54:51.608" level="INFO">Current page contains text field 'id:txtUsername'.</msg>
+<status status="PASS" starttime="20200512 18:54:50.673" endtime="20200512 18:54:51.608"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>id:txtUsername</arg>
+<arg>Admin</arg>
+</arguments>
+<msg timestamp="20200512 18:54:51.609" level="INFO">Sending key(s) ('Admin',) to id:txtUsername element.</msg>
+<msg timestamp="20200512 18:54:52.495" level="INFO">Sending keys Admin</msg>
+<status status="PASS" starttime="20200512 18:54:51.608" endtime="20200512 18:54:52.817"></status>
+</kw>
+<kw name="Page Should Not Contain Textfield" library="SeleniumLibrary">
+<doc>Verifies text field ``locator`` is not found from current page.</doc>
+<arguments>
+<arg>id:password</arg>
+</arguments>
+<msg timestamp="20200512 18:55:23.169" level="INFO">Current page does not contain text field 'id:password'.</msg>
+<status status="PASS" starttime="20200512 18:54:52.817" endtime="20200512 18:55:23.169"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>id:txtPassword</arg>
+<arg>admin123</arg>
+</arguments>
+<msg timestamp="20200512 18:55:23.172" level="INFO">Sending key(s) ('admin123',) to id:txtPassword element.</msg>
+<msg timestamp="20200512 18:55:24.058" level="INFO">Sending keys admin123</msg>
+<status status="PASS" starttime="20200512 18:55:23.170" endtime="20200512 18:55:24.374"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>Submit</arg>
+</arguments>
+<msg timestamp="20200512 18:55:24.374" level="INFO">Clicking element 'Submit'.</msg>
+<status status="PASS" starttime="20200512 18:55:24.374" endtime="20200512 18:55:30.368"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:55:30.368" endtime="20200512 18:55:32.750"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:54:43.656" endtime="20200512 18:55:32.750" critical="yes"></status>
+</test>
+<test id="s1-s16-t2" name="TC_016-2 Using Validations">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url4}</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20200512 18:55:32.752" level="INFO">Opening browser 'Chrome' to base url 'http://tutorialsninja.com/demo/'.</msg>
+<status status="PASS" starttime="20200512 18:55:32.752" endtime="20200512 18:55:39.104"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1080</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:55:39.105" endtime="20200512 18:55:39.526"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="top-links"]/ul/li[2]/a/span[1]</arg>
+</arguments>
+<msg timestamp="20200512 18:55:39.526" level="INFO">Clicking element 'xpath://*[@id="top-links"]/ul/li[2]/a/span[1]'.</msg>
+<status status="PASS" starttime="20200512 18:55:39.526" endtime="20200512 18:55:40.217"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="top-links"]/ul/li[2]/ul/li[1]/a</arg>
+</arguments>
+<msg timestamp="20200512 18:55:40.218" level="INFO">Clicking element 'xpath://*[@id="top-links"]/ul/li[2]/ul/li[1]/a'.</msg>
+<status status="PASS" starttime="20200512 18:55:40.218" endtime="20200512 18:55:42.462"></status>
+</kw>
+<kw name="Execute Javascript" library="SeleniumLibrary">
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<arguments>
+<arg>window.scrollTo(0,500)</arg>
+</arguments>
+<msg timestamp="20200512 18:55:42.464" level="INFO">Executing JavaScript:
+window.scrollTo(0,500)
+Without any arguments.</msg>
+<status status="PASS" starttime="20200512 18:55:42.463" endtime="20200512 18:55:42.776"></status>
+</kw>
+<kw name="Radio Button Should Be Set To" library="SeleniumLibrary">
+<doc>Verifies radio button group ``group_name`` is set to ``value``.</doc>
+<arguments>
+<arg>newsletter</arg>
+<arg>0</arg>
+</arguments>
+<msg timestamp="20200512 18:55:42.777" level="INFO">Verifying radio button 'newsletter' has selection '0'.</msg>
+<status status="PASS" starttime="20200512 18:55:42.776" endtime="20200512 18:55:44.038"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:55:44.038" endtime="20200512 18:55:46.428"></status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:55:32.751" endtime="20200512 18:55:46.429" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:54:43.650" endtime="20200512 18:55:46.430"></status>
+</suite>
+<suite id="s1-s17" name="TC 017 Dropdown List" source="C:\PycharmProjects\Automation\TestCases\TC_017_Dropdown_List.robot">
+<test id="s1-s17-t1" name="TC_017-1 Using Drop-down">
+<kw name="Open Browser And Set Window Size" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:55:46.442" level="INFO">Opening browser 'Chrome' to base url 'http://omayo.blogspot.com/'.</msg>
+<status status="PASS" starttime="20200512 18:55:46.441" endtime="20200512 18:55:51.169"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1080</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:55:51.169" endtime="20200512 18:55:51.600"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:55:46.441" endtime="20200512 18:55:51.600"></status>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<arguments>
+<arg>id:drop1</arg>
+<arg>4</arg>
+</arguments>
+<msg timestamp="20200512 18:55:51.602" level="INFO">Selecting options from selection list 'id:drop1' by index 4.</msg>
+<status status="PASS" starttime="20200512 18:55:51.601" endtime="20200512 18:55:55.627"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>./Snapshots/TC_017-1.png</arg>
+</arguments>
+<msg timestamp="20200512 18:55:56.235" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Snapshots/TC_017-1.png"&gt;&lt;img src="Snapshots/TC_017-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200512 18:55:55.627" endtime="20200512 18:55:56.235"></status>
+</kw>
+<kw name="Close Browser Window" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:55:56.237" endtime="20200512 18:55:58.631"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:55:56.237" endtime="20200512 18:55:58.631"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<timeout value="20 seconds"></timeout>
+<status status="PASS" starttime="20200512 18:55:46.440" endtime="20200512 18:55:58.632" critical="yes"></status>
+</test>
+<test id="s1-s17-t2" name="TC_017-2 Using List">
+<kw name="Open Browser And Set Window Size" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:55:58.636" level="INFO">Opening browser 'Chrome' to base url 'http://omayo.blogspot.com/'.</msg>
+<status status="PASS" starttime="20200512 18:55:58.635" endtime="20200512 18:56:03.592"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1080</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:56:03.592" endtime="20200512 18:56:04.631"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:55:58.635" endtime="20200512 18:56:04.631"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>id:drop1</arg>
+<arg>jkl</arg>
+</arguments>
+<msg timestamp="20200512 18:56:04.633" level="INFO">Selecting options from selection list 'id:drop1' by value jkl.</msg>
+<status status="PASS" starttime="20200512 18:56:04.632" endtime="20200512 18:56:06.872"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>./Snapshots/TC_017-2.png</arg>
+</arguments>
+<msg timestamp="20200512 18:56:07.591" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Snapshots/TC_017-2.png"&gt;&lt;img src="Snapshots/TC_017-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200512 18:56:06.884" endtime="20200512 18:56:07.592"></status>
+</kw>
+<kw name="Close Browser Window" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:56:07.594" endtime="20200512 18:56:10.044"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:56:07.593" endtime="20200512 18:56:10.044"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<timeout value="20 seconds"></timeout>
+<status status="PASS" starttime="20200512 18:55:58.634" endtime="20200512 18:56:10.045" critical="yes"></status>
+</test>
+<test id="s1-s17-t3" name="TC_017-3 Using List">
+<kw name="Open Browser And Set Window Size" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:56:10.050" level="INFO">Opening browser 'Chrome' to base url 'http://omayo.blogspot.com/'.</msg>
+<status status="PASS" starttime="20200512 18:56:10.049" endtime="20200512 18:56:16.224"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1080</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:56:16.224" endtime="20200512 18:56:17.013"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:56:10.048" endtime="20200512 18:56:17.013"></status>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>id:drop1</arg>
+<arg>doc 2</arg>
+</arguments>
+<msg timestamp="20200512 18:56:17.015" level="INFO">Selecting options from selection list 'id:drop1' by label doc 2.</msg>
+<status status="PASS" starttime="20200512 18:56:17.015" endtime="20200512 18:56:19.219"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>./Snapshots/TC_017-3.png</arg>
+</arguments>
+<msg timestamp="20200512 18:56:19.806" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Snapshots/TC_017-3.png"&gt;&lt;img src="Snapshots/TC_017-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200512 18:56:19.219" endtime="20200512 18:56:19.807"></status>
+</kw>
+<kw name="Close Browser Window" type="teardown">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:56:19.808" endtime="20200512 18:56:22.177"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:56:19.807" endtime="20200512 18:56:22.177"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<timeout value="20 seconds"></timeout>
+<status status="PASS" starttime="20200512 18:56:10.047" endtime="20200512 18:56:22.178" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:55:46.434" endtime="20200512 18:56:22.181"></status>
+</suite>
+<suite id="s1-s18" name="TC 018-1 Using Keyword" source="C:\PycharmProjects\Automation\TestCases\TC_018-1_Using_Keyword.robot">
+<test id="s1-s18-t1" name="TC_018-1 Use of Keyword">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:56:22.192" level="INFO">Opening browser 'Chrome' to base url 'https://thetestingworld.com/testings/'.</msg>
+<status status="PASS" starttime="20200512 18:56:22.192" endtime="20200512 18:56:30.208"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1366</arg>
+<arg>768</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:56:30.209" endtime="20200512 18:56:30.634"></status>
+</kw>
+<kw name="Enter Username Password Email">
+<kw name="Press Key" library="SeleniumLibrary">
+<doc>*DEPRECATED in SeleniumLibrary 4.0.* use `Press Keys` instead.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>coolrakesh_in</arg>
+</arguments>
+<msg timestamp="20200512 18:56:30.634" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<status status="PASS" starttime="20200512 18:56:30.634" endtime="20200512 18:56:31.337"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_email</arg>
+<arg>coolrakesh_in@yahoo.com</arg>
+</arguments>
+<msg timestamp="20200512 18:56:31.337" level="INFO">Typing text 'coolrakesh_in@yahoo.com' into text field 'name:fld_email'.</msg>
+<status status="PASS" starttime="20200512 18:56:31.337" endtime="20200512 18:56:32.383"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>0r@nge123</arg>
+</arguments>
+<msg timestamp="20200512 18:56:32.383" level="INFO">Typing text '0r@nge123' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20200512 18:56:32.383" endtime="20200512 18:56:33.390"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:56:30.634" endtime="20200512 18:56:33.390"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1 second</arg>
+</arguments>
+<msg timestamp="20200512 18:56:34.393" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200512 18:56:33.391" endtime="20200512 18:56:34.393"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:56:34.394" endtime="20200512 18:56:37.876"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:56:22.188" endtime="20200512 18:56:37.877" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:56:22.184" endtime="20200512 18:56:37.879"></status>
+</suite>
+<suite id="s1-s19" name="TC 018-2 Using Keyword with Arguments" source="C:\PycharmProjects\Automation\TestCases\TC_018-2_Using_Keyword_with_Arguments.robot">
+<test id="s1-s19-t1" name="TC_018-2 Use of Keyword">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:56:37.889" level="INFO">Opening browser 'Chrome' to base url 'https://thetestingworld.com/testings/'.</msg>
+<status status="PASS" starttime="20200512 18:56:37.889" endtime="20200512 18:56:43.751"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1366</arg>
+<arg>768</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:56:43.751" endtime="20200512 18:56:44.172"></status>
+</kw>
+<kw name="Enter Username Password Email">
+<arguments>
+<arg>coolrakesh_in</arg>
+<arg>coolrakesh_in@yahoo.com</arg>
+<arg>0r@nge123</arg>
+</arguments>
+<kw name="Press Key" library="SeleniumLibrary">
+<doc>*DEPRECATED in SeleniumLibrary 4.0.* use `Press Keys` instead.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20200512 18:56:44.173" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<status status="PASS" starttime="20200512 18:56:44.173" endtime="20200512 18:56:44.899"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_email</arg>
+<arg>${email}</arg>
+</arguments>
+<msg timestamp="20200512 18:56:44.899" level="INFO">Typing text 'coolrakesh_in@yahoo.com' into text field 'name:fld_email'.</msg>
+<status status="PASS" starttime="20200512 18:56:44.899" endtime="20200512 18:56:46.006"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20200512 18:56:46.006" level="INFO">Typing text '0r@nge123' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20200512 18:56:46.006" endtime="20200512 18:56:47.037"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:56:44.173" endtime="20200512 18:56:47.037"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1 second</arg>
+</arguments>
+<msg timestamp="20200512 18:56:48.039" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200512 18:56:47.038" endtime="20200512 18:56:48.039"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:56:48.040" endtime="20200512 18:56:50.453"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:56:37.887" endtime="20200512 18:56:50.454" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:56:37.883" endtime="20200512 18:56:50.455"></status>
+</suite>
+<suite id="s1-s20" name="TC 018-3 Using RunKeyword" source="C:\PycharmProjects\Automation\TestCases\TC_018-3_Using_RunKeyword.robot">
+<test id="s1-s20-t1" name="TC_018-3-3 Use of RunKeyword">
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>NO</arg>
+</arguments>
+<assign>
+<var>${var_key}</var>
+</assign>
+<msg timestamp="20200512 18:56:50.465" level="INFO">${var_key} = NO</msg>
+<status status="PASS" starttime="20200512 18:56:50.465" endtime="20200512 18:56:50.465"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${var_key}'=='YES'</arg>
+<arg>Log To Console</arg>
+<arg>Value was found</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:56:50.466" endtime="20200512 18:56:50.466"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>'${var_key}'=='NO'</arg>
+<arg>Log To Console</arg>
+<arg>Value was not found</arg>
+</arguments>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Value was not found</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:56:50.467" endtime="20200512 18:56:50.467"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:56:50.467" endtime="20200512 18:56:50.467"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:56:50.463" endtime="20200512 18:56:50.468" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:56:50.459" endtime="20200512 18:56:50.470"></status>
+</suite>
+<suite id="s1-s21" name="TC 019 Timeout Wait" source="C:\PycharmProjects\Automation\TestCases\TC_019_Timeout_Wait.robot">
+<test id="s1-s21-t1" name="TC_019 Use of Variable in Robotframework">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:56:50.485" level="INFO">Opening browser 'Chrome' to base url 'https://thetestingworld.com/testings/'.</msg>
+<status status="PASS" starttime="20200512 18:56:50.484" endtime="20200512 18:56:56.863"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1080</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:56:56.863" endtime="20200512 18:56:57.283"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>20 seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:56:57.283" endtime="20200512 18:56:57.888"></status>
+</kw>
+<kw name="Get Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Gets the implicit wait value used by Selenium.</doc>
+<assign>
+<var>${default_timeout}</var>
+</assign>
+<msg timestamp="20200512 18:56:57.890" level="INFO">${default_timeout} = 20 seconds</msg>
+<status status="PASS" starttime="20200512 18:56:57.889" endtime="20200512 18:56:57.890"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${default_timeout}</arg>
+</arguments>
+<msg timestamp="20200512 18:56:57.892" level="INFO">20 seconds</msg>
+<status status="PASS" starttime="20200512 18:56:57.890" endtime="20200512 18:56:57.892"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>Login &amp; Sign Up Forms</arg>
+</arguments>
+<msg timestamp="20200512 18:56:58.199" level="INFO">Page title is 'Login &amp; Sign Up Forms'.</msg>
+<status status="PASS" starttime="20200512 18:56:57.892" endtime="20200512 18:56:58.199"></status>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<arguments>
+<arg>xpath://span[contains(text(),'Login or Sign Up to start')]</arg>
+<arg>Login Or Sign Up To Start</arg>
+</arguments>
+<msg timestamp="20200512 18:56:58.200" level="INFO">Verifying element 'xpath://span[contains(text(),'Login or Sign Up to start')]' contains exact text 'Login Or Sign Up To Start'.</msg>
+<status status="PASS" starttime="20200512 18:56:58.200" endtime="20200512 18:56:58.846"></status>
+</kw>
+<kw name="Element Should Be Enabled" library="SeleniumLibrary">
+<doc>Verifies that element identified by ``locator`` is enabled.</doc>
+<arguments>
+<arg>fld_username</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:56:58.846" endtime="20200512 18:56:59.784"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>fld_username</arg>
+<arg>coolrakesh_in</arg>
+</arguments>
+<msg timestamp="20200512 18:56:59.786" level="INFO">Typing text 'coolrakesh_in' into text field 'fld_username'.</msg>
+<status status="PASS" starttime="20200512 18:56:59.785" endtime="20200512 18:57:00.804"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://input[@name='fld_email']</arg>
+<arg>coolrakesh_in@yahoo.com</arg>
+</arguments>
+<msg timestamp="20200512 18:57:00.805" level="INFO">Typing text 'coolrakesh_in@yahoo.com' into text field 'xpath://input[@name='fld_email']'.</msg>
+<status status="PASS" starttime="20200512 18:57:00.804" endtime="20200512 18:57:01.872"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>fld_password</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:57:01.874" level="INFO">Typing text 'iBall@iBall' into text field 'fld_password'.</msg>
+<status status="PASS" starttime="20200512 18:57:01.873" endtime="20200512 18:57:02.907"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>fld_cpassword</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:57:02.908" level="INFO">Sending key(s) ('iBall@iBall',) to fld_cpassword element.</msg>
+<msg timestamp="20200512 18:57:03.795" level="INFO">Sending keys iBall@iBall</msg>
+<status status="PASS" starttime="20200512 18:57:02.907" endtime="20200512 18:57:04.138"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>id:datepicker</arg>
+<arg>12/04/1980</arg>
+</arguments>
+<msg timestamp="20200512 18:57:04.140" level="INFO">Sending key(s) ('12/04/1980',) to id:datepicker element.</msg>
+<msg timestamp="20200512 18:57:05.079" level="INFO">Sending keys 12/04/1980</msg>
+<status status="PASS" starttime="20200512 18:57:04.139" endtime="20200512 18:57:05.450"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>phone</arg>
+<arg>8376011283</arg>
+</arguments>
+<msg timestamp="20200512 18:57:05.452" level="INFO">Sending key(s) ('8376011283',) to phone element.</msg>
+<msg timestamp="20200512 18:57:06.333" level="INFO">Sending keys 8376011283</msg>
+<status status="PASS" starttime="20200512 18:57:05.450" endtime="20200512 18:57:06.681"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>address</arg>
+<arg>New Delhi</arg>
+</arguments>
+<msg timestamp="20200512 18:57:06.682" level="INFO">Typing text 'New Delhi' into text field 'address'.</msg>
+<status status="PASS" starttime="20200512 18:57:06.682" endtime="20200512 18:57:07.724"></status>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<arguments>
+<arg>sex</arg>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200512 18:57:07.726" level="INFO">Selecting options from selection list 'sex' by index 2.</msg>
+<status status="PASS" starttime="20200512 18:57:07.725" endtime="20200512 18:57:10.533"></status>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<arguments>
+<arg>country</arg>
+</arguments>
+<msg timestamp="20200512 18:57:11.161" level="INFO">Element 'country' is displayed.</msg>
+<status status="PASS" starttime="20200512 18:57:10.533" endtime="20200512 18:57:11.161"></status>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>country</arg>
+<arg>India</arg>
+</arguments>
+<msg timestamp="20200512 18:57:11.163" level="INFO">Selecting options from selection list 'country' by label India.</msg>
+<status status="PASS" starttime="20200512 18:57:11.162" endtime="20200512 18:57:13.035"></status>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>state</arg>
+<arg>Delhi</arg>
+</arguments>
+<msg timestamp="20200512 18:57:13.036" level="INFO">Selecting options from selection list 'state' by label Delhi.</msg>
+<status status="PASS" starttime="20200512 18:57:13.035" endtime="20200512 18:57:17.666"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>city</arg>
+<arg>706</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20200512 18:57:39.617" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200512 18:57:38.933" endtime="20200512 18:57:39.618"></status>
+</kw>
+<msg timestamp="20200512 18:57:17.667" level="INFO">Selecting options from selection list 'city' by value 706.</msg>
+<msg timestamp="20200512 18:57:39.635" level="FAIL">NoSuchElementException: Message: Cannot locate option with value: 706
+</msg>
+<status status="FAIL" starttime="20200512 18:57:17.666" endtime="20200512 18:57:39.635"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<timeout value="1 minute"></timeout>
+<status status="FAIL" starttime="20200512 18:56:50.482" endtime="20200512 18:57:39.636" critical="yes">NoSuchElementException: Message: Cannot locate option with value: 706
+</status>
+</test>
+<status status="FAIL" starttime="20200512 18:56:50.476" endtime="20200512 18:57:39.638"></status>
+</suite>
+<suite id="s1-s22" name="TC 020 Calling Keywords from another file" source="C:\PycharmProjects\Automation\TestCases\TC_020_Calling_Keywords_from_another_file.robot">
+<test id="s1-s22-t1" name="TC_020 Use of Keyword">
+<kw name="Start Browser and Maximize" library="Resources1">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:57:39.652" level="INFO">Opening browser 'Chrome' to base url 'https://thetestingworld.com/testings/'.</msg>
+<status status="PASS" starttime="20200512 18:57:39.652" endtime="20200512 18:57:46.092"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1080</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:57:46.092" endtime="20200512 18:57:46.517"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:57:39.651" endtime="20200512 18:57:46.517"></status>
+</kw>
+<kw name="Enter Username Password Email">
+<doc>use of press key simulates the keyboard click</doc>
+<kw name="Press Key" library="SeleniumLibrary">
+<doc>*DEPRECATED in SeleniumLibrary 4.0.* use `Press Keys` instead.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>coolrakesh_in</arg>
+</arguments>
+<msg timestamp="20200512 18:57:46.518" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<status status="PASS" starttime="20200512 18:57:46.518" endtime="20200512 18:57:47.222"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_email</arg>
+<arg>coolrakesh_in@yahoo.com</arg>
+</arguments>
+<msg timestamp="20200512 18:57:47.222" level="INFO">Typing text 'coolrakesh_in@yahoo.com' into text field 'name:fld_email'.</msg>
+<status status="PASS" starttime="20200512 18:57:47.222" endtime="20200512 18:57:48.277"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>0r@nge123</arg>
+</arguments>
+<msg timestamp="20200512 18:57:48.277" level="INFO">Typing text '0r@nge123' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20200512 18:57:48.277" endtime="20200512 18:57:49.274"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:57:46.518" endtime="20200512 18:57:49.274"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1 second</arg>
+</arguments>
+<msg timestamp="20200512 18:57:50.276" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200512 18:57:49.275" endtime="20200512 18:57:50.276"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:57:50.277" endtime="20200512 18:57:52.651"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:57:39.650" endtime="20200512 18:57:52.652" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:57:39.641" endtime="20200512 18:57:52.653"></status>
+</suite>
+<suite id="s1-s23" name="TC 021 Calling Keywords from another file" source="C:\PycharmProjects\Automation\TestCases\TC_021_Calling_Keywords_from_another_file.robot">
+<test id="s1-s23-t1" name="TC_021 Use of Keyword">
+<kw name="Start Browser and Maximize" library="Resources2">
+<arguments>
+<arg>${url}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<assign>
+<var>${res}</var>
+</assign>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url1}</arg>
+<arg>${InputBrowser}</arg>
+</arguments>
+<msg timestamp="20200512 18:57:52.665" level="INFO">Opening browser 'Chrome' to base url 'http://thetestingworld.com/testings'.</msg>
+<status status="PASS" starttime="20200512 18:57:52.665" endtime="20200512 18:57:58.733"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1080</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:57:58.733" endtime="20200512 18:57:59.156"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>20 seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:57:59.156" endtime="20200512 18:58:00.059"></status>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of the current page.</doc>
+<assign>
+<var>${title}</var>
+</assign>
+<msg timestamp="20200512 18:58:00.368" level="INFO">${title} = Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20200512 18:58:00.059" endtime="20200512 18:58:00.368"></status>
+</kw>
+<msg timestamp="20200512 18:58:00.368" level="INFO">${res} = Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20200512 18:57:52.665" endtime="20200512 18:58:00.368"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${res}</arg>
+</arguments>
+<msg timestamp="20200512 18:58:00.369" level="INFO">Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20200512 18:58:00.369" endtime="20200512 18:58:00.369"></status>
+</kw>
+<kw name="Press Key" library="SeleniumLibrary">
+<doc>*DEPRECATED in SeleniumLibrary 4.0.* use `Press Keys` instead.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>${res}</arg>
+</arguments>
+<msg timestamp="20200512 18:58:00.370" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<status status="PASS" starttime="20200512 18:58:00.370" endtime="20200512 18:58:01.161"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_email</arg>
+<arg>coolrakesh_in@yahoo.com</arg>
+</arguments>
+<msg timestamp="20200512 18:58:01.162" level="INFO">Typing text 'coolrakesh_in@yahoo.com' into text field 'name:fld_email'.</msg>
+<status status="PASS" starttime="20200512 18:58:01.161" endtime="20200512 18:58:02.239"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>0r@nge123</arg>
+</arguments>
+<msg timestamp="20200512 18:58:02.240" level="INFO">Typing text '0r@nge123' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20200512 18:58:02.240" endtime="20200512 18:58:03.254"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1 second</arg>
+</arguments>
+<msg timestamp="20200512 18:58:04.255" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20200512 18:58:03.254" endtime="20200512 18:58:04.255"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:58:04.256" endtime="20200512 18:58:06.624"></status>
+</kw>
+<doc>Press Keys is used to simulate the keyboard key press</doc>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<status status="PASS" starttime="20200512 18:57:52.663" endtime="20200512 18:58:06.625" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:57:52.656" endtime="20200512 18:58:06.628"></status>
+</suite>
+<suite id="s1-s24" name="TC 022-1 Setup Teardown" source="C:\PycharmProjects\Automation\TestCases\TC_022-1_Setup_Teardown.robot">
+<test id="s1-s24-t1" name="TC_022-1 Use of Variable in Robotframework">
+<kw name="Start Browser And Set Window Size" library="Resources3" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:58:06.639" level="INFO">Opening browser 'Chrome' to base url 'https://thetestingworld.com/testings/'.</msg>
+<status status="PASS" starttime="20200512 18:58:06.638" endtime="20200512 18:58:12.540"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1080</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:58:12.540" endtime="20200512 18:58:12.964"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:58:06.638" endtime="20200512 18:58:12.964"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>20 seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:58:12.965" endtime="20200512 18:58:13.870"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>Login &amp; Sign Up Forms</arg>
+</arguments>
+<msg timestamp="20200512 18:58:14.178" level="INFO">Page title is 'Login &amp; Sign Up Forms'.</msg>
+<status status="PASS" starttime="20200512 18:58:13.870" endtime="20200512 18:58:14.178"></status>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<arguments>
+<arg>xpath://span[contains(text(),'Login or Sign Up to start')]</arg>
+<arg>Login Or Sign Up To Start</arg>
+</arguments>
+<msg timestamp="20200512 18:58:14.179" level="INFO">Verifying element 'xpath://span[contains(text(),'Login or Sign Up to start')]' contains exact text 'Login Or Sign Up To Start'.</msg>
+<status status="PASS" starttime="20200512 18:58:14.178" endtime="20200512 18:58:14.814"></status>
+</kw>
+<kw name="Element Should Be Enabled" library="SeleniumLibrary">
+<doc>Verifies that element identified by ``locator`` is enabled.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:58:14.815" endtime="20200512 18:58:15.753"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>coolrakesh_in</arg>
+</arguments>
+<msg timestamp="20200512 18:58:15.754" level="INFO">Typing text 'coolrakesh_in' into text field 'name:fld_username'.</msg>
+<status status="PASS" starttime="20200512 18:58:15.753" endtime="20200512 18:58:16.804"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://input[@name='fld_email']</arg>
+<arg>coolrakesh_in@yahoo.com</arg>
+</arguments>
+<msg timestamp="20200512 18:58:16.805" level="INFO">Typing text 'coolrakesh_in@yahoo.com' into text field 'xpath://input[@name='fld_email']'.</msg>
+<status status="PASS" starttime="20200512 18:58:16.805" endtime="20200512 18:58:17.930"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:58:17.931" level="INFO">Typing text 'iBall@iBall' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20200512 18:58:17.931" endtime="20200512 18:58:18.973"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>fld_cpassword</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:58:18.974" level="INFO">Sending key(s) ('iBall@iBall',) to fld_cpassword element.</msg>
+<msg timestamp="20200512 18:58:19.858" level="INFO">Sending keys iBall@iBall</msg>
+<status status="PASS" starttime="20200512 18:58:18.973" endtime="20200512 18:58:20.200"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>id:datepicker</arg>
+<arg>12/04/1980</arg>
+</arguments>
+<msg timestamp="20200512 18:58:20.202" level="INFO">Sending key(s) ('12/04/1980',) to id:datepicker element.</msg>
+<msg timestamp="20200512 18:58:21.129" level="INFO">Sending keys 12/04/1980</msg>
+<status status="PASS" starttime="20200512 18:58:20.201" endtime="20200512 18:58:21.484"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>name:phone</arg>
+<arg>8376011283</arg>
+</arguments>
+<msg timestamp="20200512 18:58:21.486" level="INFO">Sending key(s) ('8376011283',) to name:phone element.</msg>
+<msg timestamp="20200512 18:58:22.365" level="INFO">Sending keys 8376011283</msg>
+<status status="PASS" starttime="20200512 18:58:21.484" endtime="20200512 18:58:22.704"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>address</arg>
+<arg>New Delhi</arg>
+</arguments>
+<msg timestamp="20200512 18:58:22.705" level="INFO">Typing text 'New Delhi' into text field 'address'.</msg>
+<status status="PASS" starttime="20200512 18:58:22.705" endtime="20200512 18:58:23.734"></status>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<arguments>
+<arg>add_type</arg>
+<arg>office</arg>
+</arguments>
+<msg timestamp="20200512 18:58:23.735" level="INFO">Selecting 'office' from radio button 'add_type'.</msg>
+<status status="PASS" starttime="20200512 18:58:23.734" endtime="20200512 18:58:24.731"></status>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<arguments>
+<arg>name:sex</arg>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200512 18:58:24.732" level="INFO">Selecting options from selection list 'name:sex' by index 2.</msg>
+<status status="PASS" starttime="20200512 18:58:24.732" endtime="20200512 18:58:27.848"></status>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<arguments>
+<arg>name:country</arg>
+</arguments>
+<msg timestamp="20200512 18:58:28.475" level="INFO">Element 'name:country' is displayed.</msg>
+<status status="PASS" starttime="20200512 18:58:27.849" endtime="20200512 18:58:28.475"></status>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>name:country</arg>
+<arg>India</arg>
+</arguments>
+<msg timestamp="20200512 18:58:28.476" level="INFO">Selecting options from selection list 'name:country' by label India.</msg>
+<status status="PASS" starttime="20200512 18:58:28.475" endtime="20200512 18:58:30.655"></status>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>name:state</arg>
+<arg>Delhi</arg>
+</arguments>
+<msg timestamp="20200512 18:58:30.656" level="INFO">Selecting options from selection list 'name:state' by label Delhi.</msg>
+<status status="PASS" starttime="20200512 18:58:30.655" endtime="20200512 18:58:39.505"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>name:city</arg>
+<arg>706</arg>
+</arguments>
+<msg timestamp="20200512 18:58:39.506" level="INFO">Selecting options from selection list 'name:city' by value 706.</msg>
+<status status="PASS" starttime="20200512 18:58:39.506" endtime="20200512 18:58:43.387"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>name:zip</arg>
+<arg>110076</arg>
+</arguments>
+<msg timestamp="20200512 18:58:43.388" level="INFO">Sending key(s) ('110076',) to name:zip element.</msg>
+<msg timestamp="20200512 18:58:44.266" level="INFO">Sending keys 110076</msg>
+<status status="PASS" starttime="20200512 18:58:43.387" endtime="20200512 18:58:44.593"></status>
+</kw>
+<kw name="Checkbox Should Not Be Selected" library="SeleniumLibrary">
+<doc>Verifies checkbox ``locator`` is not selected/checked.</doc>
+<arguments>
+<arg>name:terms</arg>
+</arguments>
+<msg timestamp="20200512 18:58:44.595" level="INFO">Verifying checkbox 'name:terms' is not selected.</msg>
+<status status="PASS" starttime="20200512 18:58:44.594" endtime="20200512 18:58:46.446"></status>
+</kw>
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<arguments>
+<arg>name:terms</arg>
+</arguments>
+<msg timestamp="20200512 18:58:46.448" level="INFO">Selecting checkbox 'name:terms'.</msg>
+<status status="PASS" starttime="20200512 18:58:46.446" endtime="20200512 18:58:48.628"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>./Snapshots/TC_022.png</arg>
+</arguments>
+<msg timestamp="20200512 18:58:49.320" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Snapshots/TC_022.png"&gt;&lt;img src="Snapshots/TC_022.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200512 18:58:48.629" endtime="20200512 18:58:49.320"></status>
+</kw>
+<kw name="Close Browser Window" library="Resources3" type="teardown">
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of the current page.</doc>
+<assign>
+<var>${title}</var>
+</assign>
+<msg timestamp="20200512 18:58:49.628" level="INFO">${title} = Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20200512 18:58:49.321" endtime="20200512 18:58:49.628"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${title}</arg>
+</arguments>
+<msg timestamp="20200512 18:58:49.628" level="INFO">Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20200512 18:58:49.628" endtime="20200512 18:58:49.628"></status>
+</kw>
+<kw name="Get Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Gets the implicit wait value used by Selenium.</doc>
+<assign>
+<var>${default_timeout}</var>
+</assign>
+<msg timestamp="20200512 18:58:49.628" level="INFO">${default_timeout} = 20 seconds</msg>
+<status status="PASS" starttime="20200512 18:58:49.628" endtime="20200512 18:58:49.628"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${default_timeout}</arg>
+</arguments>
+<msg timestamp="20200512 18:58:49.629" level="INFO">20 seconds</msg>
+<status status="PASS" starttime="20200512 18:58:49.629" endtime="20200512 18:58:49.629"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:58:49.629" endtime="20200512 18:58:51.993"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:58:49.321" endtime="20200512 18:58:51.993"></status>
+</kw>
+<tags>
+<tag>DFLT</tag>
+</tags>
+<timeout value="2 minutes 20 seconds"></timeout>
+<status status="PASS" starttime="20200512 18:58:06.637" endtime="20200512 18:58:51.994" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200512 18:58:06.630" endtime="20200512 18:58:51.996"></status>
+</suite>
+<suite id="s1-s25" name="TC 022-2 Setup Teardown" source="C:\PycharmProjects\Automation\TestCases\TC_022-2_Setup_Teardown.robot">
+<kw name="Before Each Test Suite" library="Resources3" type="setup">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Before Each Test Suite</arg>
+</arguments>
+<msg timestamp="20200512 18:58:52.004" level="INFO">Before Each Test Suite</msg>
+<status status="PASS" starttime="20200512 18:58:52.004" endtime="20200512 18:58:52.004"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:58:52.004" endtime="20200512 18:58:52.005"></status>
+</kw>
+<test id="s1-s25-t1" name="TC_022-2-1 Checking use of teardown">
+<kw name="Start Browser And Set Window Size" library="Resources3" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:58:52.007" level="INFO">Opening browser 'Chrome' to base url 'https://thetestingworld.com/testings/'.</msg>
+<status status="PASS" starttime="20200512 18:58:52.007" endtime="20200512 18:59:00.452"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1080</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:59:00.452" endtime="20200512 18:59:00.875"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:58:52.006" endtime="20200512 18:59:00.875"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>20 seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:59:00.876" endtime="20200512 18:59:01.781"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>Login &amp; Sign Up Forms</arg>
+</arguments>
+<msg timestamp="20200512 18:59:02.087" level="INFO">Page title is 'Login &amp; Sign Up Forms'.</msg>
+<status status="PASS" starttime="20200512 18:59:01.781" endtime="20200512 18:59:02.087"></status>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<arguments>
+<arg>xpath://span[contains(text(),'Login or Sign Up to start')]</arg>
+<arg>Login Or Sign Up To Start</arg>
+</arguments>
+<msg timestamp="20200512 18:59:02.089" level="INFO">Verifying element 'xpath://span[contains(text(),'Login or Sign Up to start')]' contains exact text 'Login Or Sign Up To Start'.</msg>
+<status status="PASS" starttime="20200512 18:59:02.088" endtime="20200512 18:59:02.720"></status>
+</kw>
+<kw name="Element Should Be Enabled" library="SeleniumLibrary">
+<doc>Verifies that element identified by ``locator`` is enabled.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:59:02.720" endtime="20200512 18:59:03.654"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>coolrakesh_in</arg>
+</arguments>
+<msg timestamp="20200512 18:59:03.655" level="INFO">Typing text 'coolrakesh_in' into text field 'name:fld_username'.</msg>
+<status status="PASS" starttime="20200512 18:59:03.654" endtime="20200512 18:59:04.681"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://input[@name='fld_email']</arg>
+<arg>coolrakesh_in@yahoo.com</arg>
+</arguments>
+<msg timestamp="20200512 18:59:04.683" level="INFO">Typing text 'coolrakesh_in@yahoo.com' into text field 'xpath://input[@name='fld_email']'.</msg>
+<status status="PASS" starttime="20200512 18:59:04.682" endtime="20200512 18:59:05.750"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:59:05.752" level="INFO">Typing text 'iBall@iBall' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20200512 18:59:05.751" endtime="20200512 18:59:06.755"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>name:fld_cpassword</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:59:06.756" level="INFO">Sending key(s) ('iBall@iBall',) to name:fld_cpassword element.</msg>
+<msg timestamp="20200512 18:59:07.636" level="INFO">Sending keys iBall@iBall</msg>
+<status status="PASS" starttime="20200512 18:59:06.755" endtime="20200512 18:59:07.969"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>id:datepicker</arg>
+<arg>12/04/1980</arg>
+</arguments>
+<msg timestamp="20200512 18:59:07.970" level="INFO">Sending key(s) ('12/04/1980',) to id:datepicker element.</msg>
+<msg timestamp="20200512 18:59:08.898" level="INFO">Sending keys 12/04/1980</msg>
+<status status="PASS" starttime="20200512 18:59:07.969" endtime="20200512 18:59:09.254"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>name:phone</arg>
+<arg>8376011283</arg>
+</arguments>
+<msg timestamp="20200512 18:59:09.255" level="INFO">Sending key(s) ('8376011283',) to name:phone element.</msg>
+<msg timestamp="20200512 18:59:10.134" level="INFO">Sending keys 8376011283</msg>
+<status status="PASS" starttime="20200512 18:59:09.254" endtime="20200512 18:59:10.469"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:address</arg>
+<arg>New Delhi</arg>
+</arguments>
+<msg timestamp="20200512 18:59:10.470" level="INFO">Typing text 'New Delhi' into text field 'name:address'.</msg>
+<status status="PASS" starttime="20200512 18:59:10.469" endtime="20200512 18:59:11.488"></status>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<arguments>
+<arg>add_type</arg>
+<arg>office</arg>
+</arguments>
+<msg timestamp="20200512 18:59:11.489" level="INFO">Selecting 'office' from radio button 'add_type'.</msg>
+<status status="PASS" starttime="20200512 18:59:11.488" endtime="20200512 18:59:12.451"></status>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<arguments>
+<arg>name:sex</arg>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200512 18:59:12.452" level="INFO">Selecting options from selection list 'name:sex' by index 2.</msg>
+<status status="PASS" starttime="20200512 18:59:12.451" endtime="20200512 18:59:15.564"></status>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<arguments>
+<arg>name:country</arg>
+</arguments>
+<msg timestamp="20200512 18:59:16.192" level="INFO">Element 'name:country' is displayed.</msg>
+<status status="PASS" starttime="20200512 18:59:15.564" endtime="20200512 18:59:16.192"></status>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>name:country</arg>
+<arg>India</arg>
+</arguments>
+<msg timestamp="20200512 18:59:16.193" level="INFO">Selecting options from selection list 'name:country' by label India.</msg>
+<status status="PASS" starttime="20200512 18:59:16.192" endtime="20200512 18:59:18.376"></status>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>name:state</arg>
+<arg>Delhi</arg>
+</arguments>
+<msg timestamp="20200512 18:59:18.377" level="INFO">Selecting options from selection list 'name:state' by label Delhi.</msg>
+<status status="PASS" starttime="20200512 18:59:18.376" endtime="20200512 18:59:23.310"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>name:city</arg>
+<arg>706</arg>
+</arguments>
+<msg timestamp="20200512 18:59:23.311" level="INFO">Selecting options from selection list 'name:city' by value 706.</msg>
+<status status="PASS" starttime="20200512 18:59:23.311" endtime="20200512 18:59:27.202"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>name:zip</arg>
+<arg>110076</arg>
+</arguments>
+<msg timestamp="20200512 18:59:27.204" level="INFO">Sending key(s) ('110076',) to name:zip element.</msg>
+<msg timestamp="20200512 18:59:28.082" level="INFO">Sending keys 110076</msg>
+<status status="PASS" starttime="20200512 18:59:27.203" endtime="20200512 18:59:28.403"></status>
+</kw>
+<kw name="Checkbox Should Not Be Selected" library="SeleniumLibrary">
+<doc>Verifies checkbox ``locator`` is not selected/checked.</doc>
+<arguments>
+<arg>name:terms</arg>
+</arguments>
+<msg timestamp="20200512 18:59:28.404" level="INFO">Verifying checkbox 'name:terms' is not selected.</msg>
+<status status="PASS" starttime="20200512 18:59:28.404" endtime="20200512 18:59:30.259"></status>
+</kw>
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<arguments>
+<arg>name:terms</arg>
+</arguments>
+<msg timestamp="20200512 18:59:30.260" level="INFO">Selecting checkbox 'name:terms'.</msg>
+<status status="PASS" starttime="20200512 18:59:30.259" endtime="20200512 18:59:32.455"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>./Snapshots/TC_022-2-1.png</arg>
+</arguments>
+<msg timestamp="20200512 18:59:33.186" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Snapshots/TC_022-2-1.png"&gt;&lt;img src="Snapshots/TC_022-2-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200512 18:59:32.456" endtime="20200512 18:59:33.187"></status>
+</kw>
+<kw name="Close Browser Window" library="Resources3" type="teardown">
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of the current page.</doc>
+<assign>
+<var>${title}</var>
+</assign>
+<msg timestamp="20200512 18:59:33.495" level="INFO">${title} = Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20200512 18:59:33.188" endtime="20200512 18:59:33.495"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${title}</arg>
+</arguments>
+<msg timestamp="20200512 18:59:33.495" level="INFO">Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20200512 18:59:33.495" endtime="20200512 18:59:33.495"></status>
+</kw>
+<kw name="Get Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Gets the implicit wait value used by Selenium.</doc>
+<assign>
+<var>${default_timeout}</var>
+</assign>
+<msg timestamp="20200512 18:59:33.496" level="INFO">${default_timeout} = 20 seconds</msg>
+<status status="PASS" starttime="20200512 18:59:33.495" endtime="20200512 18:59:33.496"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${default_timeout}</arg>
+</arguments>
+<msg timestamp="20200512 18:59:33.496" level="INFO">20 seconds</msg>
+<status status="PASS" starttime="20200512 18:59:33.496" endtime="20200512 18:59:33.496"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 18:59:33.496" endtime="20200512 18:59:35.865"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:59:33.187" endtime="20200512 18:59:35.865"></status>
+</kw>
+<doc>note that the "name:" is added as optional</doc>
+<tags>
+<tag>Sanity</tag>
+</tags>
+<timeout value="2 minutes 20 seconds"></timeout>
+<status status="PASS" starttime="20200512 18:58:52.005" endtime="20200512 18:59:35.866" critical="yes"></status>
+</test>
+<test id="s1-s25-t2" name="TC_022-2-1 Checking use of teardown">
+<kw name="Start Browser And Set Window Size" library="Resources3" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 18:59:35.870" level="INFO">Opening browser 'Chrome' to base url 'https://thetestingworld.com/testings/'.</msg>
+<status status="PASS" starttime="20200512 18:59:35.869" endtime="20200512 18:59:43.034"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1080</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:59:43.034" endtime="20200512 18:59:43.461"></status>
+</kw>
+<status status="PASS" starttime="20200512 18:59:35.869" endtime="20200512 18:59:43.461"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>20 seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:59:43.462" endtime="20200512 18:59:44.368"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>Login &amp; Sign Up Forms</arg>
+</arguments>
+<msg timestamp="20200512 18:59:44.676" level="INFO">Page title is 'Login &amp; Sign Up Forms'.</msg>
+<status status="PASS" starttime="20200512 18:59:44.368" endtime="20200512 18:59:44.676"></status>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<arguments>
+<arg>xpath://span[contains(text(),'Login or Sign Up to start')]</arg>
+<arg>Login Or Sign Up To Start</arg>
+</arguments>
+<msg timestamp="20200512 18:59:44.677" level="INFO">Verifying element 'xpath://span[contains(text(),'Login or Sign Up to start')]' contains exact text 'Login Or Sign Up To Start'.</msg>
+<status status="PASS" starttime="20200512 18:59:44.677" endtime="20200512 18:59:45.318"></status>
+</kw>
+<kw name="Element Should Be Enabled" library="SeleniumLibrary">
+<doc>Verifies that element identified by ``locator`` is enabled.</doc>
+<arguments>
+<arg>fld_username</arg>
+</arguments>
+<status status="PASS" starttime="20200512 18:59:45.318" endtime="20200512 18:59:46.257"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>fld_username</arg>
+<arg>coolrakesh_in</arg>
+</arguments>
+<msg timestamp="20200512 18:59:46.258" level="INFO">Typing text 'coolrakesh_in' into text field 'fld_username'.</msg>
+<status status="PASS" starttime="20200512 18:59:46.257" endtime="20200512 18:59:47.310"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://input[@name='fld_email']</arg>
+<arg>coolrakesh_in@yahoomail.com</arg>
+</arguments>
+<msg timestamp="20200512 18:59:47.312" level="INFO">Typing text 'coolrakesh_in@yahoomail.com' into text field 'xpath://input[@name='fld_email']'.</msg>
+<status status="PASS" starttime="20200512 18:59:47.311" endtime="20200512 18:59:48.399"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>fld_password</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:59:48.400" level="INFO">Typing text 'iBall@iBall' into text field 'fld_password'.</msg>
+<status status="PASS" starttime="20200512 18:59:48.399" endtime="20200512 18:59:49.423"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>fld_cpassword</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 18:59:49.425" level="INFO">Sending key(s) ('iBall@iBall',) to fld_cpassword element.</msg>
+<msg timestamp="20200512 18:59:50.313" level="INFO">Sending keys iBall@iBall</msg>
+<status status="PASS" starttime="20200512 18:59:49.423" endtime="20200512 18:59:50.644"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>id:datepicker</arg>
+<arg>12/04/1980</arg>
+</arguments>
+<msg timestamp="20200512 18:59:50.646" level="INFO">Sending key(s) ('12/04/1980',) to id:datepicker element.</msg>
+<msg timestamp="20200512 18:59:51.564" level="INFO">Sending keys 12/04/1980</msg>
+<status status="PASS" starttime="20200512 18:59:50.645" endtime="20200512 18:59:51.916"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>phone</arg>
+<arg>8376011283</arg>
+</arguments>
+<msg timestamp="20200512 18:59:51.919" level="INFO">Sending key(s) ('8376011283',) to phone element.</msg>
+<msg timestamp="20200512 18:59:52.795" level="INFO">Sending keys 8376011283</msg>
+<status status="PASS" starttime="20200512 18:59:51.918" endtime="20200512 18:59:53.136"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>address</arg>
+<arg>New Delhi</arg>
+</arguments>
+<msg timestamp="20200512 18:59:53.138" level="INFO">Typing text 'New Delhi' into text field 'address'.</msg>
+<status status="PASS" starttime="20200512 18:59:53.137" endtime="20200512 18:59:54.152"></status>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<arguments>
+<arg>add_type</arg>
+<arg>office</arg>
+</arguments>
+<msg timestamp="20200512 18:59:54.153" level="INFO">Selecting 'office' from radio button 'add_type'.</msg>
+<status status="PASS" starttime="20200512 18:59:54.153" endtime="20200512 18:59:55.117"></status>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<arguments>
+<arg>sex</arg>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200512 18:59:55.118" level="INFO">Selecting options from selection list 'sex' by index 2.</msg>
+<status status="PASS" starttime="20200512 18:59:55.117" endtime="20200512 18:59:57.918"></status>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<arguments>
+<arg>country</arg>
+</arguments>
+<msg timestamp="20200512 18:59:58.544" level="INFO">Element 'country' is displayed.</msg>
+<status status="PASS" starttime="20200512 18:59:57.918" endtime="20200512 18:59:58.544"></status>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>country</arg>
+<arg>India</arg>
+</arguments>
+<msg timestamp="20200512 18:59:58.545" level="INFO">Selecting options from selection list 'country' by label India.</msg>
+<status status="PASS" starttime="20200512 18:59:58.544" endtime="20200512 19:00:00.420"></status>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>state</arg>
+<arg>Delhi</arg>
+</arguments>
+<msg timestamp="20200512 19:00:00.421" level="INFO">Selecting options from selection list 'state' by label Delhi.</msg>
+<status status="PASS" starttime="20200512 19:00:00.420" endtime="20200512 19:00:04.949"></status>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<arguments>
+<arg>city</arg>
+<arg>706</arg>
+</arguments>
+<msg timestamp="20200512 19:00:04.951" level="INFO">Selecting options from selection list 'city' by value 706.</msg>
+<status status="PASS" starttime="20200512 19:00:04.950" endtime="20200512 19:00:08.855"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>zip</arg>
+<arg>110076</arg>
+</arguments>
+<msg timestamp="20200512 19:00:08.857" level="INFO">Sending key(s) ('110076',) to zip element.</msg>
+<msg timestamp="20200512 19:00:09.745" level="INFO">Sending keys 110076</msg>
+<status status="PASS" starttime="20200512 19:00:08.855" endtime="20200512 19:00:10.075"></status>
+</kw>
+<kw name="Checkbox Should Not Be Selected" library="SeleniumLibrary">
+<doc>Verifies checkbox ``locator`` is not selected/checked.</doc>
+<arguments>
+<arg>terms</arg>
+</arguments>
+<msg timestamp="20200512 19:00:10.077" level="INFO">Verifying checkbox 'terms' is not selected.</msg>
+<status status="PASS" starttime="20200512 19:00:10.076" endtime="20200512 19:00:11.019"></status>
+</kw>
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<arguments>
+<arg>terms</arg>
+</arguments>
+<msg timestamp="20200512 19:00:11.021" level="INFO">Selecting checkbox 'terms'.</msg>
+<status status="PASS" starttime="20200512 19:00:11.020" endtime="20200512 19:00:12.286"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>./Snapshots/TC_022-2-2.png</arg>
+</arguments>
+<msg timestamp="20200512 19:00:12.976" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Snapshots/TC_022-2-2.png"&gt;&lt;img src="Snapshots/TC_022-2-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200512 19:00:12.287" endtime="20200512 19:00:12.977"></status>
+</kw>
+<kw name="Close Browser Window" library="Resources3" type="teardown">
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of the current page.</doc>
+<assign>
+<var>${title}</var>
+</assign>
+<msg timestamp="20200512 19:00:13.287" level="INFO">${title} = Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20200512 19:00:12.979" endtime="20200512 19:00:13.287"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${title}</arg>
+</arguments>
+<msg timestamp="20200512 19:00:13.287" level="INFO">Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20200512 19:00:13.287" endtime="20200512 19:00:13.287"></status>
+</kw>
+<kw name="Get Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Gets the implicit wait value used by Selenium.</doc>
+<assign>
+<var>${default_timeout}</var>
+</assign>
+<msg timestamp="20200512 19:00:13.287" level="INFO">${default_timeout} = 20 seconds</msg>
+<status status="PASS" starttime="20200512 19:00:13.287" endtime="20200512 19:00:13.287"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${default_timeout}</arg>
+</arguments>
+<msg timestamp="20200512 19:00:13.287" level="INFO">20 seconds</msg>
+<status status="PASS" starttime="20200512 19:00:13.287" endtime="20200512 19:00:13.287"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 19:00:13.287" endtime="20200512 19:00:15.649"></status>
+</kw>
+<status status="PASS" starttime="20200512 19:00:12.978" endtime="20200512 19:00:15.649"></status>
+</kw>
+<doc>note that the "name:" has been removed</doc>
+<tags>
+<tag>Sanity</tag>
+</tags>
+<timeout value="2 minutes 20 seconds"></timeout>
+<status status="PASS" starttime="20200512 18:59:35.868" endtime="20200512 19:00:15.650" critical="yes"></status>
+</test>
+<test id="s1-s25-t3" name="TC_022-2-3 Checking use of teardown">
+<kw name="Start Browser And Set Window Size" library="Resources3" type="setup">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${url1}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200512 19:00:15.653" level="INFO">Opening browser 'Chrome' to base url 'https://thetestingworld.com/testings/'.</msg>
+<status status="PASS" starttime="20200512 19:00:15.653" endtime="20200512 19:00:24.277"></status>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1080</arg>
+</arguments>
+<status status="PASS" starttime="20200512 19:00:24.277" endtime="20200512 19:00:24.694"></status>
+</kw>
+<status status="PASS" starttime="20200512 19:00:15.652" endtime="20200512 19:00:24.694"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>20 seconds</arg>
+</arguments>
+<status status="PASS" starttime="20200512 19:00:24.695" endtime="20200512 19:00:25.601"></status>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<doc>Verifies that the current page title equals ``title``.</doc>
+<arguments>
+<arg>Login &amp; Sign Up Forms</arg>
+</arguments>
+<msg timestamp="20200512 19:00:25.913" level="INFO">Page title is 'Login &amp; Sign Up Forms'.</msg>
+<status status="PASS" starttime="20200512 19:00:25.603" endtime="20200512 19:00:25.913"></status>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<arguments>
+<arg>xpath://span[contains(text(),'Login or Sign Up to start')]</arg>
+<arg>Login Or Sign Up To Start</arg>
+</arguments>
+<msg timestamp="20200512 19:00:25.915" level="INFO">Verifying element 'xpath://span[contains(text(),'Login or Sign Up to start')]' contains exact text 'Login Or Sign Up To Start'.</msg>
+<status status="PASS" starttime="20200512 19:00:25.914" endtime="20200512 19:00:26.554"></status>
+</kw>
+<kw name="Element Should Be Enabled" library="SeleniumLibrary">
+<doc>Verifies that element identified by ``locator`` is enabled.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+</arguments>
+<status status="PASS" starttime="20200512 19:00:26.554" endtime="20200512 19:00:27.494"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_username</arg>
+<arg>coolrakesh_in</arg>
+</arguments>
+<msg timestamp="20200512 19:00:27.495" level="INFO">Typing text 'coolrakesh_in' into text field 'name:fld_username'.</msg>
+<status status="PASS" starttime="20200512 19:00:27.494" endtime="20200512 19:00:28.505"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://input[@name='fld_email']</arg>
+<arg>coolrakesh_in@yahoo.com</arg>
+</arguments>
+<msg timestamp="20200512 19:00:28.506" level="INFO">Typing text 'coolrakesh_in@yahoo.com' into text field 'xpath://input[@name='fld_email']'.</msg>
+<status status="PASS" starttime="20200512 19:00:28.505" endtime="20200512 19:00:29.588"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:fld_password</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 19:00:29.589" level="INFO">Typing text 'iBall@iBall' into text field 'name:fld_password'.</msg>
+<status status="PASS" starttime="20200512 19:00:29.589" endtime="20200512 19:00:30.587"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>name:fld_cpassword</arg>
+<arg>iBall@iBall</arg>
+</arguments>
+<msg timestamp="20200512 19:00:30.589" level="INFO">Sending key(s) ('iBall@iBall',) to name:fld_cpassword element.</msg>
+<msg timestamp="20200512 19:00:31.466" level="INFO">Sending keys iBall@iBall</msg>
+<status status="PASS" starttime="20200512 19:00:30.588" endtime="20200512 19:00:31.801"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>id:datepicker</arg>
+<arg>12/04/1980</arg>
+</arguments>
+<msg timestamp="20200512 19:00:31.802" level="INFO">Sending key(s) ('12/04/1980',) to id:datepicker element.</msg>
+<msg timestamp="20200512 19:00:32.716" level="INFO">Sending keys 12/04/1980</msg>
+<status status="PASS" starttime="20200512 19:00:31.801" endtime="20200512 19:00:33.072"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>name:phone</arg>
+<arg>8376011283</arg>
+</arguments>
+<msg timestamp="20200512 19:00:33.073" level="INFO">Sending key(s) ('8376011283',) to name:phone element.</msg>
+<msg timestamp="20200512 19:00:33.952" level="INFO">Sending keys 8376011283</msg>
+<status status="PASS" starttime="20200512 19:00:33.072" endtime="20200512 19:00:34.288"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>name:address</arg>
+<arg>New Delhi</arg>
+</arguments>
+<msg timestamp="20200512 19:00:34.289" level="INFO">Typing text 'New Delhi' into text field 'name:address'.</msg>
+<status status="PASS" starttime="20200512 19:00:34.288" endtime="20200512 19:00:35.294"></status>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<arguments>
+<arg>add_type</arg>
+<arg>office</arg>
+</arguments>
+<msg timestamp="20200512 19:00:35.296" level="INFO">Selecting 'office' from radio button 'add_type'.</msg>
+<status status="PASS" starttime="20200512 19:00:35.295" endtime="20200512 19:00:36.255"></status>
+</kw>
+<kw name="Select From List By Index" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
+<arguments>
+<arg>name:sex</arg>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200512 19:00:36.257" level="INFO">Selecting options from selection list 'name:sex' by index 2.</msg>
+<status status="PASS" starttime="20200512 19:00:36.256" endtime="20200512 19:00:39.368"></status>
+</kw>
+<kw name="Element Should Be Visible" library="SeleniumLibrary">
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<arguments>
+<arg>name:country</arg>
+</arguments>
+<msg timestamp="20200512 19:00:39.996" level="INFO">Element 'name:country' is displayed.</msg>
+<status status="PASS" starttime="20200512 19:00:39.369" endtime="20200512 19:00:39.996"></status>
+</kw>
+<kw name="Select From List By Label" library="SeleniumLibrary">
+<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
+<arguments>
+<arg>name:country</arg>
+<arg>India</arg>
+</arguments>
+<msg timestamp="20200512 19:00:39.997" level="INFO">Selecting options from selection list 'name:country' by label India.</msg>
+<status status="PASS" starttime="20200512 19:00:39.997" endtime="20200512 19:00:42.194"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>name:zip</arg>
+<arg>110076</arg>
+</arguments>
+<msg timestamp="20200512 19:00:42.197" level="INFO">Sending key(s) ('110076',) to name:zip element.</msg>
+<msg timestamp="20200512 19:00:43.086" level="INFO">Sending keys 110076</msg>
+<status status="PASS" starttime="20200512 19:00:42.195" endtime="20200512 19:00:43.412"></status>
+</kw>
+<kw name="Checkbox Should Not Be Selected" library="SeleniumLibrary">
+<doc>Verifies checkbox ``locator`` is not selected/checked.</doc>
+<arguments>
+<arg>name:terms</arg>
+</arguments>
+<msg timestamp="20200512 19:00:43.414" level="INFO">Verifying checkbox 'name:terms' is not selected.</msg>
+<status status="PASS" starttime="20200512 19:00:43.413" endtime="20200512 19:00:45.267"></status>
+</kw>
+<kw name="Select Checkbox" library="SeleniumLibrary">
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<arguments>
+<arg>name:terms</arg>
+</arguments>
+<msg timestamp="20200512 19:00:45.268" level="INFO">Selecting checkbox 'name:terms'.</msg>
+<status status="PASS" starttime="20200512 19:00:45.268" endtime="20200512 19:00:47.454"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<arguments>
+<arg>./Snapshots/TC_022-2-3.png</arg>
+</arguments>
+<msg timestamp="20200512 19:00:48.149" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Snapshots/TC_022-2-3.png"&gt;&lt;img src="Snapshots/TC_022-2-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20200512 19:00:47.455" endtime="20200512 19:00:48.149"></status>
+</kw>
+<kw name="Close Browser Window" library="Resources3" type="teardown">
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of the current page.</doc>
+<assign>
+<var>${title}</var>
+</assign>
+<msg timestamp="20200512 19:00:48.456" level="INFO">${title} = Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20200512 19:00:48.151" endtime="20200512 19:00:48.456"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${title}</arg>
+</arguments>
+<msg timestamp="20200512 19:00:48.456" level="INFO">Login &amp; Sign Up Forms</msg>
+<status status="PASS" starttime="20200512 19:00:48.456" endtime="20200512 19:00:48.456"></status>
+</kw>
+<kw name="Get Selenium Implicit Wait" library="SeleniumLibrary">
+<doc>Gets the implicit wait value used by Selenium.</doc>
+<assign>
+<var>${default_timeout}</var>
+</assign>
+<msg timestamp="20200512 19:00:48.457" level="INFO">${default_timeout} = 20 seconds</msg>
+<status status="PASS" starttime="20200512 19:00:48.456" endtime="20200512 19:00:48.457"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>${default_timeout}</arg>
+</arguments>
+<msg timestamp="20200512 19:00:48.457" level="INFO">20 seconds</msg>
+<status status="PASS" starttime="20200512 19:00:48.457" endtime="20200512 19:00:48.457"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20200512 19:00:48.457" endtime="20200512 19:00:50.812"></status>
+</kw>
+<status status="PASS" starttime="20200512 19:00:48.150" endtime="20200512 19:00:50.812"></status>
+</kw>
+<doc>note that the "name:" is added as optional</doc>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<timeout value="2 minutes 20 seconds"></timeout>
+<status status="PASS" starttime="20200512 19:00:15.651" endtime="20200512 19:00:50.813" critical="yes"></status>
+</test>
+<kw name="After Each Test Suite" library="Resources3" type="teardown">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>After Each Test Suite</arg>
+</arguments>
+<msg timestamp="20200512 19:00:50.817" level="INFO">After Each Test Suite</msg>
+<status status="PASS" starttime="20200512 19:00:50.817" endtime="20200512 19:00:50.817"></status>
+</kw>
+<status status="PASS" starttime="20200512 19:00:50.816" endtime="20200512 19:00:50.817"></status>
+</kw>
+<doc>This test is for testing the ABC functionality</doc>
+<status status="PASS" starttime="20200512 18:58:51.999" endtime="20200512 19:00:50.817"></status>
+</suite>
+<status status="FAIL" starttime="20200512 18:49:05.604" endtime="20200512 19:00:50.829"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="38" fail="3">Critical Tests</stat>
+<stat pass="38" fail="3">All Tests</stat>
+</total>
+<tag>
+<stat pass="19" fail="1">DFLT</stat>
+<stat pass="4" fail="2">Regression</stat>
+<stat pass="2" fail="0">Sanity</stat>
+<stat pass="13" fail="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="38" fail="3" id="s1" name="TestCases">TestCases</stat>
+<stat pass="1" fail="0" id="s1-s1" name="TC 001 Open Close Browser">TestCases.TC 001 Open Close Browser</stat>
+<stat pass="1" fail="0" id="s1-s2" name="TC 002 Use of CSS">TestCases.TC 002 Use of CSS</stat>
+<stat pass="1" fail="0" id="s1-s3" name="TC 003 Select Radio Button">TestCases.TC 003 Select Radio Button</stat>
+<stat pass="2" fail="0" id="s1-s4" name="TC 004 Set Variable">TestCases.TC 004 Set Variable</stat>
+<stat pass="1" fail="0" id="s1-s5" name="TC 005 Set Variable List">TestCases.TC 005 Set Variable List</stat>
+<stat pass="2" fail="0" id="s1-s6" name="TC 006 For Loop">TestCases.TC 006 For Loop</stat>
+<stat pass="2" fail="0" id="s1-s7" name="TC 007 Keyword Variable">TestCases.TC 007 Keyword Variable</stat>
+<stat pass="1" fail="0" id="s1-s8" name="TC 008 WindowSize Speed Sleep Wait">TestCases.TC 008 WindowSize Speed Sleep Wait</stat>
+<stat pass="1" fail="0" id="s1-s9" name="TC 009 Capture Screenshots">TestCases.TC 009 Capture Screenshots</stat>
+<stat pass="1" fail="0" id="s1-s10" name="TC 010 Close All Browsers">TestCases.TC 010 Close All Browsers</stat>
+<stat pass="1" fail="0" id="s1-s11" name="TC 011 GoTo GoBack GetLocation">TestCases.TC 011 GoTo GoBack GetLocation</stat>
+<stat pass="1" fail="0" id="s1-s12" name="TC 012 ExecuteJavaScript ScrollDown">TestCases.TC 012 ExecuteJavaScript ScrollDown</stat>
+<stat pass="4" fail="0" id="s1-s13" name="TC 013 Using Mouse">TestCases.TC 013 Using Mouse</stat>
+<stat pass="4" fail="0" id="s1-s14" name="TC 014 Using Wait">TestCases.TC 014 Using Wait</stat>
+<stat pass="1" fail="2" id="s1-s15" name="TC 015 Switch Window">TestCases.TC 015 Switch Window</stat>
+<stat pass="2" fail="0" id="s1-s16" name="TC 016 Using Validations">TestCases.TC 016 Using Validations</stat>
+<stat pass="3" fail="0" id="s1-s17" name="TC 017 Dropdown List">TestCases.TC 017 Dropdown List</stat>
+<stat pass="1" fail="0" id="s1-s18" name="TC 018-1 Using Keyword">TestCases.TC 018-1 Using Keyword</stat>
+<stat pass="1" fail="0" id="s1-s19" name="TC 018-2 Using Keyword with Arguments">TestCases.TC 018-2 Using Keyword with Arguments</stat>
+<stat pass="1" fail="0" id="s1-s20" name="TC 018-3 Using RunKeyword">TestCases.TC 018-3 Using RunKeyword</stat>
+<stat pass="0" fail="1" id="s1-s21" name="TC 019 Timeout Wait">TestCases.TC 019 Timeout Wait</stat>
+<stat pass="1" fail="0" id="s1-s22" name="TC 020 Calling Keywords from another file">TestCases.TC 020 Calling Keywords from another file</stat>
+<stat pass="1" fail="0" id="s1-s23" name="TC 021 Calling Keywords from another file">TestCases.TC 021 Calling Keywords from another file</stat>
+<stat pass="1" fail="0" id="s1-s24" name="TC 022-1 Setup Teardown">TestCases.TC 022-1 Setup Teardown</stat>
+<stat pass="3" fail="0" id="s1-s25" name="TC 022-2 Setup Teardown">TestCases.TC 022-2 Setup Teardown</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200512 18:53:51.836" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00B306D0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /session/444c365ed1d9fddde59f06653d803250/url</msg>
+<msg timestamp="20200512 18:53:53.846" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00B305D0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /session/444c365ed1d9fddde59f06653d803250/url</msg>
+<msg timestamp="20200512 18:53:55.855" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00B300B0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /session/444c365ed1d9fddde59f06653d803250/url</msg>
+<msg timestamp="20200512 18:53:59.871" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00B3F2D0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /session/444c365ed1d9fddde59f06653d803250/screenshot</msg>
+<msg timestamp="20200512 18:54:01.877" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00B30C30&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /session/444c365ed1d9fddde59f06653d803250/screenshot</msg>
+<msg timestamp="20200512 18:54:03.883" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x00B2CBF0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',)': /session/444c365ed1d9fddde59f06653d803250/screenshot</msg>
+<msg timestamp="20200512 18:54:05.897" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: MaxRetryError: HTTPConnectionPool(host='localhost', port=56054): Max retries exceeded with url: /session/444c365ed1d9fddde59f06653d803250/screenshot (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0432FFD0&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))</msg>
+<msg timestamp="20200512 18:56:30.634" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<msg timestamp="20200512 18:56:44.173" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<msg timestamp="20200512 18:57:46.518" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<msg timestamp="20200512 18:58:00.370" level="WARN">Keyword 'SeleniumLibrary.Press Key' is deprecated. use `Press Keys` instead.</msg>
+<msg timestamp="20200512 18:59:35.867" level="WARN">Multiple test cases with name 'TC_022-2-1 Checking use of teardown' executed in test suite 'TestCases.TC 022-2 Setup Teardown'.</msg>
+</errors>
+</robot>
